@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "251f7586-7196-41b8-bf4d-12701e9fdd2d.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/251f7586-7196-41b8-bf4d-12701e9fdd2d.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "invoice",
+    "document_number": "202423039",
+    "receipt_number": null,
+    "issue_date": "2026-04-30",
+    "due_date": "2026-05-08",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    },
+    "status": "due",
+    "language": "nl"
+  },
+  "supplier": {
+    "name": "Mijnboekhouder",
+    "legal_name": "Mijnboekhouder bv",
+    "address": "Geldenaaksevest 2, 3000 Leuven, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE0676890645"
+    ],
+    "tax_numbers": [
+      "ITAA 50.690.176",
+      "KMO DV.A229576"
+    ]
+  },
+  "customer": {
+    "name": "De Blije Staart",
+    "legal_name": null,
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE1017959867"
+    ],
+    "tax_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 325.0,
+    "tax_total": 68.25,
+    "total_including_tax": 393.25,
+    "amount_due": 393.25,
+    "amount_paid": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 325.0,
+        "tax_amount": 68.25,
+        "description": "Belgian VAT 21%"
+      }
+    ],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "Monthly accounting fixed fee for the past month, including processing of ordinary bookkeeping documents and administrative support",
+      "quantity": 1.0,
+      "unit_price": 325.0,
+      "amount": 325.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE51 3630 6128 6862",
+    "structured_communication": null,
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_invoice",
+    "supplier_or_counterparty": "Mijnboekhouder bv",
+    "description": "Monthly accounting fixed fee and bookkeeping support",
+    "total_amount": 393.25,
+    "currency": "EUR",
+    "vat_clues": [
+      "Belgian supplier",
+      "21% VAT"
+    ],
+    "review_reasons": []
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "DDDDeeee BBBBlllliiiijjjjeeee SSSSttttaaaaaaaarrrrtttt FFFFAAAACCCCTTTTUUUUUUUURRRR\nDen Haan 6\nFactuurdatum 30-04-2026\n2980 Zoersel\nFactuurnummer 202423039\nVervaldatum 08-05-2026\nUw btw-nummer: BE1017.959.867\nOOOOMMMMSSSSCCCCHHHHRRRRIIIIJJJJVVVVIIIINNNNGGGG AAAAAAAANNNNTTTTAAAALLLL PPPPRRRRIIIIJJJJSSSS EEEEXXXXCCCCLLLL.... BBBBTTTTWWWW BBBBEEEEDDDDRRRRAAAAGGGG EEEEXXXXCCCCLLLL.... BBBBTTTTWWWW\nMaandelijks forfait voor de afgelopen maand 1,00 325,00 325,00\nMaandelijks boekhoudkundig forfait\nVerwerking van courante boekhoudkundige stukken\nBoekhoudkundige opvolging en administratieve ondersteuning\nStandaardprestaties inbegrepen binnen het forfait\nTotaal exclusief btw EUR 325,00\nBtw 21% van 325,00 EUR 68,25\nTTTToooottttaaaaaaaallll tttteeee bbbbeeeettttaaaalllleeeennnn EEEEUUUURRRR 333399993333,,,,22225555\nBetaling binnen 8 dagen met vermelding van het factuurnummer.\nDit is een factuurkopie. De originele factuur wordt via Peppol verzonden.\nING Bank | IBAN BE51 3630 6128 6862 | BBRUBEBB\nKMO DV.A229576\nMijnboekhouder bv | Geldenaaksevest 2 | 3000 Leuven | BE 0676 890 645\nITAA 50.690.176 | 016 36 04 54"
+  }
+}

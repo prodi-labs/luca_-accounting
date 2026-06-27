@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "payments-receipts_2026_5_receipt-redacted.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/payments-receipts_2026_5_receipt-redacted.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "receipt",
+    "document_number": null,
+    "receipt_number": null,
+    "issue_date": null,
+    "due_date": null,
+    "paid_date": "2026-05-17",
+    "billing_period": {
+      "start": "2026-05-01",
+      "end": "2026-05-31"
+    },
+    "status": "paid",
+    "language": "en"
+  },
+  "supplier": {
+    "name": "Twilio",
+    "legal_name": "Twilio Ireland Limited",
+    "address": "70 Sir John Rogerson's Quay, Dublin 2, D02 R296, Ireland",
+    "country": "IE",
+    "email": null,
+    "vat_numbers": [
+      "IE3335493BH"
+    ],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "Talio",
+    "legal_name": null,
+    "address": "Bredestraat 49, 3290 Diest, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [],
+    "tax_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": null,
+    "tax_total": null,
+    "total_including_tax": 10.97,
+    "amount_due": null,
+    "amount_paid": 10.97
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "API Services",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 10.97,
+      "currency": "USD",
+      "tax_rate": null,
+      "period": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null,
+    "payment_history": [
+      {
+        "payment_method": "Mastercard ending 0971",
+        "date": "2026-05-17",
+        "amount_paid": 10.97,
+        "currency": "USD",
+        "receipt_number": null
+      }
+    ]
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_receipt",
+    "supplier_or_counterparty": "Twilio Ireland Limited",
+    "description": "Twilio API Services for May 2026",
+    "total_amount": 10.97,
+    "currency": "USD",
+    "vat_clues": [
+      "Irish supplier",
+      "VAT number shown",
+      "tax details not itemized in receipt"
+    ],
+    "review_reasons": []
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "Twilio Ireland Limited\n70 Sir John Rogerson's Quay\nDublin 2\nD02 R296\nIreland\nVAT Registration Number: IE3335493BH\nHave any questions? Visit our Help Center\nRECEIPT\nTalio\nTax Number: BE1034271309\nBredestraat 49 Date 01 May - 31 May, 2026\nDiest VBR 3290 BE Account SID [REDACTED]\nDate Description Payment Method Amount\n17 May, 2026 API Services Mastercard **** **** **** 0971 $10.97\nTotal Paid $10.97"
+  }
+}
