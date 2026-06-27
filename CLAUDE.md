@@ -1,32 +1,40 @@
-# Accounting automation skills
+# Luca accounting
 
-This repo holds **skills** that help automate our bookkeeping work.
-A skill is a set of written instructions, in plain English, that tells
-the agent how to do one specific accounting task — for example, categorizing
-a transaction, preparing an invoice, or checking a VAT number.
+Skills in `.claude/skills/` automate bookkeeping tasks (e.g. `process-invoice`).
+Skills only **propose** bookings — never post to a live accounting system unless
+the user confirms. When something is unclear, ask instead of guessing.
 
-## Repository layout
+Full test-harness docs: `README.md`.
 
-- `.claude/skills/` — one folder per skill. Each folder has a `SKILL.md` file
-  that describes the task and how to do it. (Claude Code looks for skills in
-  this exact location.)
-- `README.md` — a plain-language guide on how to read, use, and add skills.
-- `.claude/skills/categorize-transaction/` — a worked example to copy from.
+## Running on Windows
 
-## Agent behavior
+This repo is developed on Windows. Use Windows paths and commands.
 
-- When the user asks for an accounting task, check `.claude/skills/` for a
-  skill that matches and follow it.
-- Skills only **propose** bookings. Never enter anything into an external
-  accounting system unless a skill explicitly says to and the user
-  confirms.
-- When a transaction or document is unclear, ask the user instead of
-  guessing. Accuracy matters more than speed here.
-- Keep all instructions in skills written in plain, non-technical language.
-  The people writing and reading them are accountants, not programmers.
+**Setup (once):**
 
-## Adding a new skill
+```powershell
+py -3.13 -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+claude auth login
+```
 
-To add a skill, copy the `.claude/skills/categorize-transaction/` folder,
-rename it, and rewrite the `SKILL.md` for the new task. The README explains
-each part. No coding is required.
+If `claude` fails in PowerShell, use `claude.cmd` instead (execution-policy
+block on `claude.ps1`).
+
+**Run the test harness:**
+
+```powershell
+.venv\Scripts\python.exe main.py
+```
+
+**Run invoice scripts** (load, validate, list) — always use the venv Python:
+
+```powershell
+.venv\Scripts\python.exe scripts/load_invoice.py <path>
+.venv\Scripts\python.exe scripts/validate_booking.py <invoice> <booking>
+```
+
+Do **not** use `.venv/bin/python`; that path is Unix-only and does not exist here.
+
+Scratch copies and booking JSON go in `tests/.work/` (cleared each run).
+Test invoices and embedded answers live in `tests/invoices/`.
