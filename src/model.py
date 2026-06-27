@@ -60,6 +60,7 @@ class InvoiceSummary:
     path: Path
     invoice_id: str
     vendor_name: str
+    customer_name: str
     total_amount: float | None
     currency: str
     testable: bool
@@ -114,6 +115,7 @@ class InvoiceModel:
                 path=Path(s["path"]).resolve(),
                 invoice_id=s["invoice_id"],
                 vendor_name=s["vendor_name"],
+                customer_name=s["customer_name"],
                 total_amount=s["total_amount"],
                 currency=s["currency"],
                 testable=s["testable"],
