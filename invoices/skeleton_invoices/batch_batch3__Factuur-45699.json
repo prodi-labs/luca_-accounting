@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "45699",
+    "receipt_number": null,
+    "issue_date": "2026-06-02",
+    "due_date": "2026-06-16",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Cycle-Passion BV",
+    "address": "Kalkoven 6, 1820 Melsbroek, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0810709469"
+    ]
+  },
+  "customer": {
+    "legal_name": "Beetech",
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1013851522"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 206.61,
+    "tax_total": 43.39,
+    "total_including_tax": 250.0,
+    "amount_due": 250.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 206.61,
+        "tax_amount": 43.39,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Insurance excess / franchise cost for accident Stromer ST2",
+      "quantity": 1,
+      "unit_price": 206.61,
+      "amount": 206.61,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE26 3300 6666 5629",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Insurance excess / franchise cost for accident Stromer ST2",
+      "quantity": 1,
+      "unit_price": 206.61,
+      "subtotal": 206.61,
+      "account_code": "613200",
+      "account_name": "Business risk insurance",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

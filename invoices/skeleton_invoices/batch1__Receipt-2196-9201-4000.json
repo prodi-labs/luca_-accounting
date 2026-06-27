@@ -1,0 +1,85 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "8C5AICMX0005",
+    "receipt_number": "219692014000",
+    "issue_date": null,
+    "due_date": null,
+    "paid_date": "2026-06-13",
+    "billing_period": {
+      "start": "2026-06-13",
+      "end": "2026-07-13"
+    }
+  },
+  "supplier": {
+    "legal_name": "Eleven Labs Inc.",
+    "address": "169 Madison Ave #2484, New York, New York 10016, United States",
+    "country": "US",
+    "vat_numbers": [
+      "EU372062016",
+      "GB457922166",
+      "CHE180.708.141 IVA",
+      "NO833914332MVA",
+      "ZA4300323179"
+    ]
+  },
+  "customer": {
+    "legal_name": "Talio",
+    "address": null,
+    "country": "BE",
+    "vat_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": 6.0,
+    "tax_total": 0.0,
+    "total_including_tax": 6.0,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": true,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 6.0,
+        "tax_amount": 0.0,
+        "description": "0% reverse charge"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Starter (per subscription)",
+      "quantity": 1,
+      "unit_price": 6.0,
+      "amount": 6.0,
+      "currency": "USD",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-06-13",
+        "end": "2026-07-13"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Starter (per subscription)",
+      "quantity": 1,
+      "unit_price": 6.0,
+      "subtotal": 6.0,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    }
+  ]
+}

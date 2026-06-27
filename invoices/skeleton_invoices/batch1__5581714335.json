@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "5581714335",
+    "receipt_number": null,
+    "issue_date": "2026-05-31",
+    "due_date": null,
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-05-01",
+      "end": "2026-05-31"
+    }
+  },
+  "supplier": {
+    "legal_name": "Google Cloud EMEA Limited",
+    "address": "Velasco, Clanwilliam Place, Dublin 2, Ireland",
+    "country": "IE",
+    "vat_numbers": [
+      "IE3668997OH"
+    ]
+  },
+  "customer": {
+    "legal_name": "Taliohq",
+    "address": "Bredestraat 49, 3290 Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 13.6,
+    "tax_total": 0.0,
+    "total_including_tax": 13.6,
+    "amount_due": 13.6
+  },
+  "tax": {
+    "reverse_charge": true,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 13.6,
+        "tax_amount": 0.0,
+        "description": "VAT 0% reverse charge"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Google Workspace Business Starter Commitment",
+      "quantity": 2,
+      "unit_price": null,
+      "amount": 13.6,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Google Workspace Business Starter Commitment",
+      "quantity": 2,
+      "unit_price": null,
+      "subtotal": 13.6,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EU S"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "in_1Tf6EmCcKlYJxALV9ku1uOAO",
+    "receipt_number": "G0DPRQD1-0007",
+    "issue_date": "2026-06-06",
+    "due_date": "2026-06-06",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-06-06",
+      "end": "2026-07-06"
+    }
+  },
+  "supplier": {
+    "legal_name": "Notion Labs, Inc.",
+    "address": "685 Market St, San Francisco, CA 94105, United States",
+    "country": "US",
+    "vat_numbers": [
+      "EU528003828"
+    ]
+  },
+  "customer": {
+    "legal_name": "Talio",
+    "address": "Bredestraat 49, 3293 Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 23.0,
+    "tax_total": 0.0,
+    "total_including_tax": 23.0,
+    "amount_due": 23.0
+  },
+  "tax": {
+    "reverse_charge": true,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 23.0,
+        "tax_amount": 0.0,
+        "description": "Tax"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Plus Plan Monthly x 2 members",
+      "quantity": 2,
+      "unit_price": null,
+      "amount": 23.0,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-06-06",
+        "end": "2026-07-06"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Plus Plan Monthly x 2 members",
+      "quantity": 2,
+      "unit_price": null,
+      "subtotal": 23.0,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    }
+  ]
+}

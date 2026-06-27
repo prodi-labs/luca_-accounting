@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "BE261701442255",
+    "receipt_number": null,
+    "issue_date": "2026-06-18",
+    "due_date": "2026-06-22",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-06-07",
+      "end": "2026-06-14"
+    }
+  },
+  "supplier": {
+    "legal_name": "Radius Business Solutions (Belgium) NV",
+    "address": "TIO3 Oscar Delghuststraat 60, 9600 Ronse, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0865944140"
+    ]
+  },
+  "customer": {
+    "legal_name": "Beetech Commv",
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1013851522"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 80.53,
+    "tax_total": 16.92,
+    "total_including_tax": 97.45,
+    "amount_due": 97.45
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 80.53,
+        "tax_amount": 16.92,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Diesel - B7",
+      "quantity": 47.195,
+      "unit_price": 1.70650562,
+      "amount": 80.53,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-06-07",
+        "end": "2026-06-14"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "SEPA direct debit",
+    "payment_reference": "261701442255 / domiciliring RF143930",
+    "iban": "BE26 3900 1034 7329",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Diesel - B7",
+      "quantity": 47.195,
+      "unit_price": 1.70650562,
+      "subtotal": 80.53,
+      "account_code": "612600",
+      "account_name": "Fuel for company cars",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    }
+  ]
+}

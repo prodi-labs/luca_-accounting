@@ -1,0 +1,103 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "F1KO5AKC0015",
+    "receipt_number": "20994444",
+    "issue_date": null,
+    "due_date": null,
+    "paid_date": "2026-06-03",
+    "billing_period": {
+      "start": "2026-06-03",
+      "end": "2026-07-03"
+    }
+  },
+  "supplier": {
+    "legal_name": "OpenAI Ireland Limited",
+    "address": "1st Floor, The Liffey Trust Center, 117-126 Sheriff Street Upper, Dublin, D01 YC43, Ireland",
+    "country": "IE",
+    "vat_numbers": [
+      "IE4143435AH"
+    ]
+  },
+  "customer": {
+    "legal_name": "Stijn Bruggeman",
+    "address": "Bredestraat 49, 3290 Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 116.41,
+    "tax_total": 0.0,
+    "total_including_tax": 116.41,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": true,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 116.41,
+        "tax_amount": 0.0,
+        "description": "0% reverse charge"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "ChatGPT Pro Subscription (per seat)",
+      "quantity": 1,
+      "unit_price": 189.26,
+      "amount": 189.26,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-06-03",
+        "end": "2026-07-03"
+      }
+    },
+    {
+      "description": "Unused time on ChatGPT Pro Subscription after 03 Jun 2026",
+      "quantity": 1,
+      "unit_price": null,
+      "amount": -72.85,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-06-03",
+        "end": "2026-06-30"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "ChatGPT Pro Subscription (per seat)",
+      "quantity": 1,
+      "unit_price": 189.26,
+      "subtotal": 189.26,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EU S"
+    },
+    {
+      "description": "Unused time on ChatGPT Pro Subscription after 03 Jun 2026",
+      "quantity": 1,
+      "unit_price": null,
+      "subtotal": -72.85,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EU S"
+    }
+  ]
+}

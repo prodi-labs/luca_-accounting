@@ -1,0 +1,147 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "2026.041880",
+    "receipt_number": null,
+    "issue_date": "2026-04-16",
+    "due_date": "2026-05-01",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "ACTIEF INTERIM nv",
+    "address": "Bosstraat 67 bus 2, 3560 Lummen, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0433344035"
+    ]
+  },
+  "customer": {
+    "legal_name": "De Blije Staart BV",
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1017959867"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 713.88,
+    "tax_total": 149.91,
+    "total_including_tax": 863.79,
+    "amount_due": 863.79
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 713.88,
+        "tax_amount": 149.91,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Wages and salaries - Callaert Eysackers Yolanda, week 15",
+      "quantity": 30.0,
+      "unit_price": 18.06,
+      "amount": 541.8,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-07",
+        "end": "2026-04-11"
+      }
+    },
+    {
+      "description": "Travel costs - public transport",
+      "quantity": 4.0,
+      "unit_price": 20.07,
+      "amount": 80.28,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-07",
+        "end": "2026-04-11"
+      }
+    },
+    {
+      "description": "Administration costs / start-up cost",
+      "quantity": 1.0,
+      "unit_price": 75.0,
+      "amount": 75.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Dimona costs",
+      "quantity": 30.0,
+      "unit_price": 0.56,
+      "amount": 16.8,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-07",
+        "end": "2026-04-11"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE47 2350 4344 3480",
+    "structured_communication": "+++260/0041/88045+++"
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Wages and salaries - Callaert Eysackers Yolanda, week 15",
+      "quantity": 30.0,
+      "unit_price": 18.06,
+      "subtotal": 541.8,
+      "account_code": "617000",
+      "account_name": "Temporary agency workers",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Travel costs - public transport",
+      "quantity": 4.0,
+      "unit_price": 20.07,
+      "subtotal": 80.28,
+      "account_code": "617000",
+      "account_name": "Temporary agency workers",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Administration costs / start-up cost",
+      "quantity": 1.0,
+      "unit_price": 75.0,
+      "subtotal": 75.0,
+      "account_code": "617000",
+      "account_name": "Temporary agency workers",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Dimona costs",
+      "quantity": 30.0,
+      "unit_price": 0.56,
+      "subtotal": 16.8,
+      "account_code": "617000",
+      "account_name": "Temporary agency workers",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

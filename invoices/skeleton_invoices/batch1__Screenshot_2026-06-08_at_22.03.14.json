@@ -1,0 +1,70 @@
+{
+  "document": {
+    "document_type": "travel_ticket_receipt",
+    "document_number": "J59RE1HT",
+    "receipt_number": null,
+    "issue_date": null,
+    "due_date": null,
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": null,
+    "address": null,
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "customer": {
+    "legal_name": "Jarne Verstraete",
+    "address": null,
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": null,
+    "tax_total": null,
+    "total_including_tax": 4.6,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": []
+  },
+  "line_items": [
+    {
+      "description": "Ticket Daluren Jongere Train+",
+      "quantity": 1,
+      "unit_price": 4.6,
+      "amount": 4.6,
+      "currency": "EUR",
+      "tax_rate": null,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Ticket Daluren Jongere Train+",
+      "quantity": 1,
+      "unit_price": 4.6,
+      "subtotal": 4.6,
+      "account_code": "616700",
+      "account_name": "Travel and accommodation expenses",
+      "vat_rate": null,
+      "vat_code": "6% S"
+    }
+  ]
+}

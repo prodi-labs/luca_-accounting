@@ -1,0 +1,103 @@
+{
+  "document": {
+    "document_type": "supplier_invoice",
+    "document_number": "00859001996260001261",
+    "receipt_number": null,
+    "issue_date": "2026-04-19",
+    "due_date": null,
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Combiform",
+    "address": "Paalstraat 149, 2900 Schoten, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0866680548"
+    ]
+  },
+  "customer": {
+    "legal_name": "De Blije Staart",
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1017959867"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 50.64,
+    "tax_total": 10.64,
+    "total_including_tax": 61.28,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 50.64,
+        "tax_amount": 10.64,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "HAN KABEL XVB 3X2,5MM2 10M",
+      "quantity": 1.0,
+      "unit_price": 35.94215,
+      "amount": 35.94,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "OK STOPCONTACT 2P+A + 1V AFDEK CREAM 4ST",
+      "quantity": 1.0,
+      "unit_price": 14.70248,
+      "amount": 14.7,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": "Source 26041909530019965607",
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "HAN KABEL XVB 3X2,5MM2 10M",
+      "quantity": 1.0,
+      "unit_price": 35.94215,
+      "subtotal": 35.94,
+      "account_code": "611220",
+      "account_name": "Sector-specific materials",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "OK STOPCONTACT 2P+A + 1V AFDEK CREAM 4ST",
+      "quantity": 1.0,
+      "unit_price": 14.70248,
+      "subtotal": 14.7,
+      "account_code": "611220",
+      "account_name": "Sector-specific materials",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    }
+  ]
+}

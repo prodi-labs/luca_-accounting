@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "100067593.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/100067593.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "invoice",
+    "document_number": "441821507",
+    "receipt_number": null,
+    "issue_date": "2026-06-04",
+    "due_date": null,
+    "paid_date": "2026-06-03",
+    "billing_period": {
+      "start": null,
+      "end": null
+    },
+    "status": "paid",
+    "language": "en"
+  },
+  "supplier": {
+    "name": "Coolblue",
+    "legal_name": "Coolblue België N.V.",
+    "address": "Borsbeeksebrug 28, 2600 Berchem, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE0867686774"
+    ],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "Beetech",
+    "legal_name": null,
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE1013851522"
+    ],
+    "tax_numbers": [
+      "Customer number 16910827",
+      "Order number 97686493",
+      "OIN 1013851522"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 228.91,
+    "tax_total": 48.08,
+    "total_including_tax": 276.99,
+    "amount_due": null,
+    "amount_paid": 276.99
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 228.91,
+        "tax_amount": 48.08,
+        "description": "Belgian VAT 21%"
+      }
+    ],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "Apple USB-C Charger 20W",
+      "quantity": 1,
+      "unit_price": 23.13,
+      "amount": 23.13,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": [
+        "Includes Recupel 0.06."
+      ]
+    },
+    {
+      "description": "HP 207X Toner Cartridge Cyan High Capacity",
+      "quantity": 1,
+      "unit_price": 106.61,
+      "amount": 106.61,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    },
+    {
+      "description": "HP 207X Toner Cartridge Black High Capacity",
+      "quantity": 1,
+      "unit_price": 99.17,
+      "amount": 99.17,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact",
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null,
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_invoice",
+    "supplier_or_counterparty": "Coolblue België N.V.",
+    "description": "Apple USB-C charger and HP toner cartridges",
+    "total_amount": 276.99,
+    "currency": "EUR",
+    "vat_clues": [
+      "Belgian supplier",
+      "21% VAT"
+    ],
+    "review_reasons": [
+      "Mixed items; charger may be equipment/accessory while toner is office/printing supplies."
+    ]
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "INVOICE.\nFits the bill.\nBeetech Customer number 16910827\nattn Danny Konings Invoice number 441821507\nBergstraat 147 Invoice date 4 June 2026\n1910 Kampenhout\nOrder number 97686493\nBelgium\nOrder date 3 June 2026\nVAT number BE1013851522 Delivery date 4 June 2026\nOIN 1013851522\nProduct Amount Price excl. VAT VAT Price excl. VAT\nApple USB-C Charger 20W 1 €23.13 21% €23.13\nIncl. Recupel: 5.5.1 Battery chargers, power 1 €0.06\nadapters, cables, power strips, plugs\nHP 207X Toner Cartridge Cyan (High Capacity) 1 €106.61 21% €106.61\nIncl. Recupel: 5.5.2 Cartridges 1 €0.00\nHP 207X Toner Cartridge Black (High Capacity) 1 €99.17 21% €99.17\nIncl. Recupel: 5.5.2 Cartridges 1 €0.00\nTotal excl. VAT €228.91\nVAT 21% €48.08\nTotal including VAT €276.99\nPaid with Bancontact on 3 June 2026\nCoolblue België N.V. Borsbeeksebrug 28 2600 Berchem Belgium\nRPR Antwerpen BE0867686774 BE07310160125666 BBRUBEBB 1/1"
+  }
+}

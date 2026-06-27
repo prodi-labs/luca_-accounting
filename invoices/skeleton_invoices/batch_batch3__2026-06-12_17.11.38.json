@@ -1,0 +1,79 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "1194110813",
+    "receipt_number": "1194110813",
+    "issue_date": "2026-06-12",
+    "due_date": null,
+    "paid_date": "2026-06-12",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Servauto Belg-Lux S.A.",
+    "address": "Autosnelweg E19 Brussel-Parijs, B-1601 Ruisbroek, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0423097766"
+    ]
+  },
+  "customer": {
+    "legal_name": null,
+    "address": null,
+    "country": null,
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 7.12,
+    "tax_total": 0.43,
+    "total_including_tax": 7.55,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 6.0,
+        "base": 7.12,
+        "tax_amount": 0.43,
+        "description": "VAT type 1"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Suzy Gauf. liég. Cho",
+      "quantity": 1,
+      "unit_price": 7.55,
+      "amount": 7.55,
+      "currency": "EUR",
+      "tax_rate": 6.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact",
+    "payment_reference": "Card ending 8931 / STAN 770364 / auth C2DAF8",
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Suzy Gauf. liég. Cho",
+      "quantity": 1,
+      "unit_price": 7.55,
+      "subtotal": 7.55,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 6.0,
+      "vat_code": "6% S"
+    }
+  ]
+}

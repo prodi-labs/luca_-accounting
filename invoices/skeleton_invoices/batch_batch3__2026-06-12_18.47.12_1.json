@@ -1,0 +1,145 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "91759036",
+    "receipt_number": null,
+    "issue_date": "2026-06-04",
+    "due_date": null,
+    "paid_date": "2026-06-04",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Proximus NV van publiek recht",
+    "address": "Koning Albert II-laan 27, 1030 Brussel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0202239951"
+    ]
+  },
+  "customer": {
+    "legal_name": "Danny Konings",
+    "address": "Bergstraat 147, 1910 Berg (Kampenhout), Belgium",
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 107.43,
+    "tax_total": 22.56,
+    "total_including_tax": 129.99,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 107.43,
+        "tax_amount": 22.56,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Apple TV 4K WiFi + Ethernet 128GB Black",
+      "quantity": 1,
+      "unit_price": 102.88,
+      "amount": 102.88,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Recupel contribution",
+      "quantity": 1,
+      "unit_price": 0.2479,
+      "amount": 0.25,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Environmental contribution",
+      "quantity": 1,
+      "unit_price": 0.08,
+      "amount": 0.08,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Auvibel",
+      "quantity": 1,
+      "unit_price": 4.3,
+      "amount": 4.3,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "already paid online",
+    "payment_reference": "R4WEBSHOP048338177",
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Apple TV 4K WiFi + Ethernet 128GB Black",
+      "quantity": 1,
+      "unit_price": 102.88,
+      "subtotal": 102.88,
+      "account_code": "611200",
+      "account_name": "Small equipment",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "Recupel contribution",
+      "quantity": 1,
+      "unit_price": 0.2479,
+      "subtotal": 0.25,
+      "account_code": "611200",
+      "account_name": "Small equipment",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "Environmental contribution",
+      "quantity": 1,
+      "unit_price": 0.08,
+      "subtotal": 0.08,
+      "account_code": "611200",
+      "account_name": "Small equipment",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "Auvibel",
+      "quantity": 1,
+      "unit_price": 4.3,
+      "subtotal": 4.3,
+      "account_code": "611200",
+      "account_name": "Small equipment",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    }
+  ]
+}

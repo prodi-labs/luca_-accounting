@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "355124308.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/355124308.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "invoice",
+    "document_number": "355124308",
+    "receipt_number": null,
+    "issue_date": "2026-05-05",
+    "due_date": "2026-06-04",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    },
+    "status": "due",
+    "language": "nl"
+  },
+  "supplier": {
+    "name": "RS Components",
+    "legal_name": "RS Components",
+    "address": "Stephanie Square Centre, Louizalaan 65 box 11, 1050 Brussel, Belgium",
+    "country": "BE",
+    "email": "RCustomerServiceB@rs-components.com",
+    "vat_numbers": [
+      "BE0467850695"
+    ],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "Beetech",
+    "legal_name": null,
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE1013851522"
+    ],
+    "tax_numbers": [
+      "Payer number 18535457",
+      "Order reference 3017831079"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 41.66,
+    "tax_total": 8.75,
+    "total_including_tax": 50.41,
+    "amount_due": 50.41,
+    "amount_paid": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 41.66,
+        "tax_amount": 8.75,
+        "description": "Belgian VAT 21%"
+      }
+    ],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "RS PRO 100R8.8X1.9N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 6.1,
+      "amount": 6.1,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": [
+        "Bag of 100, HS export code 40169300, country of origin India."
+      ]
+    },
+    {
+      "description": "RS PRO 100R8.2X1.8N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 7.85,
+      "amount": 7.85,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": [
+        "Bag of 100, HS export code 40169300, country of origin India."
+      ]
+    },
+    {
+      "description": "RS PRO 50R8.5X1.5N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 3.7,
+      "amount": 3.7,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": [
+        "Bag of 50."
+      ]
+    },
+    {
+      "description": "Phoenix Contact 1694923",
+      "quantity": 1,
+      "unit_price": 13.24,
+      "amount": 13.24,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": [
+        "HS export code 85444290, country of origin Germany."
+      ]
+    },
+    {
+      "description": "Transistor NPN 45V 0.1A SOT323",
+      "quantity": 50,
+      "unit_price": 0.096,
+      "amount": 4.82,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    },
+    {
+      "description": "Service / shipping",
+      "quantity": 1,
+      "unit_price": 5.95,
+      "amount": 5.95,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE65 0017 4938 5296",
+    "structured_communication": null,
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_invoice",
+    "supplier_or_counterparty": "RS Components",
+    "description": "Electronic/mechanical components, O-rings, connector/transistor and service/shipping cost",
+    "total_amount": 50.41,
+    "currency": "EUR",
+    "vat_clues": [
+      "Belgian supplier",
+      "21% VAT"
+    ],
+    "review_reasons": [
+      "Determine whether parts are small equipment, repair materials, or goods used for a customer project."
+    ]
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "RS Components FACTUUR\nStephanie Square Centre\nFactuurdatum 05.05.2026\nLouizalaan 65, box 11\nPayer Number 18535457\n1050 Brussel\nFactuur account 18535457\nBelgië\nUw BTW nummer BE1013851522\nFactuurnummer 355124308\nE: RCustomerServiceB@rs-components.com\nPagina 1 van 2\nT: 02 528 07 70\nI: benl.rs-online.com\nB ill To ___\nBeetech\nBergstraat 147\n___\n1910 KAMPENHOUT\nBELGIUM\nUw Orderreferentie RS Contact Contact\nOrderreferentie Nummer\n3017831079 3017831079 Dhr. D. Konings 93598976\n04 75236555\nShip-To Number SHIP-TO ADDRESS\n18535457 Beetech\nDhr. D. Konings\nBergstraat 147\n1910 KAMPENHOUT\nBELGIUM\nDelivery Number Verzenddatum\n1265868708 05.05.2026\nPositie Artikel- Omschrijving Aantal Verkoopeenheid Geleverd in Prijs per Totaal BTW\nnummer Veelvoud van verkoopeenh. Bedrag\n10 2555878 RS PRO 100R8.8X1.9N70 O-Ring 1 ZAK van 100 6,10 6,10 21,00%\nHS exportcode 40169300 C of O India\n20 2555873 RS PRO 100R8.2X1.8N70 O-Ring 1 ZAK van 100 7,85 7,85 21,00%\nHS exportcode 40169300 C of O India\n30 1965472 RS PRO 50R8.5X1.5N70 O-Ring 1 ZAK van 50 3,70 3,70 21,00%\nHS exportcode 40169300 C of O Diverse\n40 8582856 Phoenix Contact 1694923 1 STU 13,24 13,24 21,00%\nHS exportcode 85444290 C of O Germany\nDelivery Number Verzenddatum\n1265874158 05.05.2026\nPositie Artikel- Omschrijving Aantal Verkoopeenheid Geleverd in Prijs per Totaal BTW\nnummer Veelvoud van verkoopeenh. Bedrag\n50 7114881 Transistor NPN 45V 0.1A SOT323 50 STU 50 0,096 4,82 21,00%\nHS exportcode 85412900 C of O Diverse\nHS importcode 8541290000\nSERVICE 5,95\nTotaal exclusief BTW 41,66\nBTW 8,75\nTotaal - EUR 50,41\n*** Vervolg ***\nAlle leveringen dienen te worden betaald binnen 30 dagen na factuurdatum. Voor alle door ons gesloten overeenkomsten, leveringen en\ndiensten gelden onze algemene verkoop- en leveringsvoorwaarden, zoals gedeponeerd bij de Kamer van Koophandel te Amsterdam\n(Nederland). De tekst van deze voorwaarden wordt op verzoek kostenloos toegezonden.\nBank: BNP Paribas IBAN: BE65001749385296 BIC: GEBABEBB RPR Brussel 637.337 BTW: BE 0467 850 695\nRS Components FACTUUR\nStephanie Square Centre\nFactuurdatum 05.05.2026\nLouizalaan 65, box 11\nPayer Number 18535457\n1050 Brussel\nFactuur account 18535457\nBelgië\nUw BTW nummer BE1013851522\nFactuurnummer 355124308\nE: RCustomerServiceB@rs-components.com\nPagina 2 van 2\nT: 02 528 07 70\nI: benl.rs-online.com\nB ill To ___\nBeetech ___\nBergstraat 147\n1910 KAMPENHOUT\nBELGIUM\nTotaal Netto Services Totaal BTW BTW (EUR)\nexcl. BTW\n35,71 5,95 41,66 21,00% 8,75\nBetalingsconditie\nBinnen 30 dagen zonder korting\nTot 04.06.2026 zonder aftrek 04.06.2026 50,41\nGelieve bij de betaling duidelijk het factuurnummer of payernummer te vermelden. Indien u meerdere facturen in één keer betaalt,\nverzoeken wij u dit expliciet te specificeren in een e-mail naar creditcontrol@rsonline.be.\nWenst u een kopie van deze factuur? Dit kan via benl.rs-online.com door in te loggen onder het kopje ’Mijn account’. In het tabblad\n’Facturen’ kunt u uw factuur zoeken op RS-ordernummer of RS-factuurnummer.\nAlle leveringen dienen te worden betaald binnen 30 dagen na factuurdatum. Voor alle door ons gesloten overeenkomsten, leveringen en\ndiensten gelden onze algemene verkoop- en leveringsvoorwaarden, zoals gedeponeerd bij de Kamer van Koophandel te Amsterdam\n(Nederland). De tekst van deze voorwaarden wordt op verzoek kostenloos toegezonden.\nBank: BNP Paribas IBAN: BE65001749385296 BIC: GEBABEBB RPR Brussel 637.337 BTW: BE 0467 850 695"
+  }
+}
