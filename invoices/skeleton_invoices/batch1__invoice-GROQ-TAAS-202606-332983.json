@@ -1,0 +1,121 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "GROQ-TAAS-202606-332983",
+    "receipt_number": null,
+    "issue_date": "2026-06-06",
+    "due_date": "2026-06-06",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-05-01",
+      "end": "2026-05-31"
+    }
+  },
+  "supplier": {
+    "legal_name": "Groq, Inc.",
+    "address": "P.O. Box 1778, 94042 Mountain View, CA, United States",
+    "country": "US",
+    "vat_numbers": []
+  },
+  "customer": {
+    "legal_name": "Auros - Jarne Verstraete",
+    "address": "Bredestraat 49, 3290 Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": 0.35,
+    "tax_total": 0.0,
+    "total_including_tax": 0.35,
+    "amount_due": 0.35
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 0.35,
+        "tax_amount": 0.0,
+        "description": "No tax"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "developer_early_access_monthly - openai/gpt-oss-120b input tokens",
+      "quantity": 682700,
+      "unit_price": 1.5e-07,
+      "amount": 0.1,
+      "currency": "USD",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      }
+    },
+    {
+      "description": "developer_early_access_monthly - openai/gpt-oss-120b cached input tokens",
+      "quantity": 167936,
+      "unit_price": 7.5e-08,
+      "amount": 0.01,
+      "currency": "USD",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      }
+    },
+    {
+      "description": "developer_early_access_monthly - openai/gpt-oss-120b output tokens",
+      "quantity": 392042,
+      "unit_price": 6e-07,
+      "amount": 0.24,
+      "currency": "USD",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "developer_early_access_monthly - openai/gpt-oss-120b input tokens",
+      "quantity": 682700,
+      "unit_price": 1.5e-07,
+      "subtotal": 0.1,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    },
+    {
+      "description": "developer_early_access_monthly - openai/gpt-oss-120b cached input tokens",
+      "quantity": 167936,
+      "unit_price": 7.5e-08,
+      "subtotal": 0.01,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    },
+    {
+      "description": "developer_early_access_monthly - openai/gpt-oss-120b output tokens",
+      "quantity": 392042,
+      "unit_price": 6e-07,
+      "subtotal": 0.24,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    }
+  ]
+}

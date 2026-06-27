@@ -1,0 +1,79 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "45L64969PU294984V",
+    "receipt_number": "45L64969PU294984V",
+    "issue_date": "2026-04-06",
+    "due_date": null,
+    "paid_date": "2026-04-06",
+    "billing_period": {
+      "start": "2026-04-06",
+      "end": "2026-05-05"
+    }
+  },
+  "supplier": {
+    "legal_name": "GitHub, Inc.",
+    "address": "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States",
+    "country": "US",
+    "vat_numbers": []
+  },
+  "customer": {
+    "legal_name": "BartCalders",
+    "address": null,
+    "country": "BE",
+    "vat_numbers": [
+      "BE1017959867"
+    ]
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": 10.0,
+    "tax_total": 0.0,
+    "total_including_tax": 10.0,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 10.0,
+        "tax_amount": 0.0,
+        "description": "Tax"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "GitHub Copilot Pro - month",
+      "quantity": 1,
+      "unit_price": 10.0,
+      "amount": 10.0,
+      "currency": "USD",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-04-06",
+        "end": "2026-05-05"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "PayPal account administratie@deblijestaart.be",
+    "payment_reference": "Transaction ID 45L64969PU294984V",
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "GitHub Copilot Pro - month",
+      "quantity": 1,
+      "unit_price": 10.0,
+      "subtotal": 10.0,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    }
+  ]
+}

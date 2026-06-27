@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "202423039",
+    "receipt_number": null,
+    "issue_date": "2026-04-30",
+    "due_date": "2026-05-08",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Mijnboekhouder bv",
+    "address": "Geldenaaksevest 2, 3000 Leuven, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0676890645"
+    ]
+  },
+  "customer": {
+    "legal_name": "De Blije Staart",
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1017959867"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 325.0,
+    "tax_total": 68.25,
+    "total_including_tax": 393.25,
+    "amount_due": 393.25
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 325.0,
+        "tax_amount": 68.25,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Monthly accounting fixed fee for the past month, including processing of ordinary bookkeeping documents and administrative support",
+      "quantity": 1.0,
+      "unit_price": 325.0,
+      "amount": 325.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE51 3630 6128 6862",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Monthly accounting fixed fee for the past month, including processing of ordinary bookkeeping documents and administrative support",
+      "quantity": 1.0,
+      "unit_price": 325.0,
+      "subtotal": 325.0,
+      "account_code": "615200",
+      "account_name": "Fees of bookkeepers and accountants",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

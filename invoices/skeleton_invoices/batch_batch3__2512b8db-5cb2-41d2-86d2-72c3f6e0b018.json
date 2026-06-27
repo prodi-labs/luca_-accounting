@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "202423150",
+    "receipt_number": null,
+    "issue_date": "2026-05-28",
+    "due_date": "2026-06-05",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Mijnboekhouder bv",
+    "address": "Geldenaaksevest 2, 3000 Leuven, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0676890645"
+    ]
+  },
+  "customer": {
+    "legal_name": "Beetech",
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1013851522"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 364.77,
+    "tax_total": 76.6,
+    "total_including_tax": 441.37,
+    "amount_due": 441.37
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 364.77,
+        "tax_amount": 76.6,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Monthly accounting fixed fee for the previous month, including bookkeeping follow-up and administrative support",
+      "quantity": 1.0,
+      "unit_price": 364.77,
+      "amount": 364.77,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE51 3630 6128 6862",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Monthly accounting fixed fee for the previous month, including bookkeeping follow-up and administrative support",
+      "quantity": 1.0,
+      "unit_price": 364.77,
+      "subtotal": 364.77,
+      "account_code": "615200",
+      "account_name": "Fees of bookkeepers and accountants",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

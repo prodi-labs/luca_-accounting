@@ -1,0 +1,103 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "263800897931",
+    "receipt_number": null,
+    "issue_date": "2026-04-18",
+    "due_date": "2026-04-30",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-04-18",
+      "end": "2026-05-17"
+    }
+  },
+  "supplier": {
+    "legal_name": "Telenet BV",
+    "address": "Liersesteenweg 4, 2800 Mechelen, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0473416418"
+    ]
+  },
+  "customer": {
+    "legal_name": "De Blije Staart BV",
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1017959867"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 174.27,
+    "tax_total": 36.6,
+    "total_including_tax": 210.87,
+    "amount_due": 210.87
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 174.27,
+        "tax_amount": 36.6,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Bundle KLIK (5 SIMs & unlimited mobile data), including 24-month discount and usage",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 161.2727,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-18",
+        "end": "2026-05-17"
+      }
+    },
+    {
+      "description": "Telephony - Voice Pro Classic",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 13.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-18",
+        "end": "2026-05-17"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "direct_debit",
+    "payment_reference": "Mandate reference 001910138",
+    "iban": "BE11 4050 5046 1148",
+    "structured_communication": "+++313/0650/94295+++"
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Bundle KLIK (5 SIMs & unlimited mobile data), including 24-month discount and usage",
+      "quantity": null,
+      "unit_price": null,
+      "subtotal": 161.2727,
+      "account_code": "616200",
+      "account_name": "Telephone and internet expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Telephony - Voice Pro Classic",
+      "quantity": null,
+      "unit_price": null,
+      "subtotal": 13.0,
+      "account_code": "616200",
+      "account_name": "Telephone and internet expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

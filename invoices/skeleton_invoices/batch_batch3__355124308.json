@@ -1,0 +1,191 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "355124308",
+    "receipt_number": null,
+    "issue_date": "2026-05-05",
+    "due_date": "2026-06-04",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "RS Components",
+    "address": "Stephanie Square Centre, Louizalaan 65 box 11, 1050 Brussel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0467850695"
+    ]
+  },
+  "customer": {
+    "legal_name": "Beetech",
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1013851522"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 41.66,
+    "tax_total": 8.75,
+    "total_including_tax": 50.41,
+    "amount_due": 50.41
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 41.66,
+        "tax_amount": 8.75,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "RS PRO 100R8.8X1.9N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 6.1,
+      "amount": 6.1,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "RS PRO 100R8.2X1.8N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 7.85,
+      "amount": 7.85,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "RS PRO 50R8.5X1.5N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 3.7,
+      "amount": 3.7,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Phoenix Contact 1694923",
+      "quantity": 1,
+      "unit_price": 13.24,
+      "amount": 13.24,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Transistor NPN 45V 0.1A SOT323",
+      "quantity": 50,
+      "unit_price": 0.096,
+      "amount": 4.82,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Service / shipping",
+      "quantity": 1,
+      "unit_price": 5.95,
+      "amount": 5.95,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE65 0017 4938 5296",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "RS PRO 100R8.8X1.9N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 6.1,
+      "subtotal": 6.1,
+      "account_code": "611220",
+      "account_name": "Sector-specific materials",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "RS PRO 100R8.2X1.8N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 7.85,
+      "subtotal": 7.85,
+      "account_code": "611220",
+      "account_name": "Sector-specific materials",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "RS PRO 50R8.5X1.5N70 O-Ring",
+      "quantity": 1,
+      "unit_price": 3.7,
+      "subtotal": 3.7,
+      "account_code": "611220",
+      "account_name": "Sector-specific materials",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "Phoenix Contact 1694923",
+      "quantity": 1,
+      "unit_price": 13.24,
+      "subtotal": 13.24,
+      "account_code": "611220",
+      "account_name": "Sector-specific materials",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "Transistor NPN 45V 0.1A SOT323",
+      "quantity": 50,
+      "unit_price": 0.096,
+      "subtotal": 4.82,
+      "account_code": "611220",
+      "account_name": "Sector-specific materials",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "Service / shipping",
+      "quantity": 1,
+      "unit_price": 5.95,
+      "subtotal": 5.95,
+      "account_code": "607000",
+      "account_name": "Ancillary purchase costs",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "38102",
+    "receipt_number": "38102",
+    "issue_date": "2026-06-11",
+    "due_date": null,
+    "paid_date": "2026-06-11",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "BVBA LIRE",
+    "address": "Auwegemstraat 36, 2800 Mechelen, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0453726804"
+    ]
+  },
+  "customer": {
+    "legal_name": null,
+    "address": null,
+    "country": null,
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 92.09,
+    "tax_total": 12.91,
+    "total_including_tax": 105.0,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 12.0,
+        "base": 71.43,
+        "tax_amount": 8.57,
+        "description": "VAT category B"
+      },
+      {
+        "rate": 21.0,
+        "base": 20.66,
+        "tax_amount": 4.34,
+        "description": "VAT category A"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "B Mista",
+      "quantity": 1,
+      "unit_price": 13.0,
+      "amount": 13.0,
+      "currency": "EUR",
+      "tax_rate": 12.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Gambas alla griglia",
+      "quantity": 1,
+      "unit_price": 35.0,
+      "amount": 35.0,
+      "currency": "EUR",
+      "tax_rate": 12.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Seppia patate",
+      "quantity": 1,
+      "unit_price": 32.0,
+      "amount": 32.0,
+      "currency": "EUR",
+      "tax_rate": 12.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Carolus Triple",
+      "quantity": 1,
+      "unit_price": 5.0,
+      "amount": 5.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Negroni (Bitter)",
+      "quantity": 1,
+      "unit_price": 10.0,
+      "amount": 10.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Spa 0.5 lt",
+      "quantity": 2,
+      "unit_price": 5.0,
+      "amount": 10.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact",
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "B Mista",
+      "quantity": 1,
+      "unit_price": 13.0,
+      "subtotal": 13.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 12.0,
+      "vat_code": "12% S"
+    },
+    {
+      "description": "Gambas alla griglia",
+      "quantity": 1,
+      "unit_price": 35.0,
+      "subtotal": 35.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 12.0,
+      "vat_code": "12% S"
+    },
+    {
+      "description": "Seppia patate",
+      "quantity": 1,
+      "unit_price": 32.0,
+      "subtotal": 32.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 12.0,
+      "vat_code": "12% S"
+    },
+    {
+      "description": "Carolus Triple",
+      "quantity": 1,
+      "unit_price": 5.0,
+      "subtotal": 5.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Negroni (Bitter)",
+      "quantity": 1,
+      "unit_price": 10.0,
+      "subtotal": 10.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Spa 0.5 lt",
+      "quantity": 2,
+      "unit_price": 5.0,
+      "subtotal": 10.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}
