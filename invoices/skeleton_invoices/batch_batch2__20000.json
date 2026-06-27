@@ -1,0 +1,125 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "VF+02-26064017",
+    "receipt_number": null,
+    "issue_date": "2026-04-30",
+    "due_date": "2026-04-30",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Afval Alternatief NV",
+    "address": "Zandbergen 2, I.Z. Stenehei, 2480 Dessel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0849424248"
+    ]
+  },
+  "customer": {
+    "legal_name": "De Blije Staart",
+    "address": "Begonialaan 83, 2390 Malle, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1017959867"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 40.9,
+    "tax_total": 8.42,
+    "total_including_tax": 49.32,
+    "amount_due": 49.32
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 40.1,
+        "tax_amount": 8.42,
+        "description": "VAT detail line on invoice"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Overweight residual waste",
+      "quantity": 40,
+      "unit_price": 0.23,
+      "amount": 9.24,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-28",
+        "end": null
+      }
+    },
+    {
+      "description": "Emptying residual waste roll container 770 l",
+      "quantity": 1,
+      "unit_price": 25.66,
+      "amount": 25.66,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-28",
+        "end": null
+      }
+    },
+    {
+      "description": "Rental roll container 770 l residual waste",
+      "quantity": 1,
+      "unit_price": 6.0,
+      "amount": 6.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-30",
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "direct_debit",
+    "payment_reference": null,
+    "iban": "BE60 7310 2819 7770",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Overweight residual waste",
+      "quantity": 40,
+      "unit_price": 0.23,
+      "subtotal": 9.24,
+      "account_code": "610101",
+      "account_name": "Business address costs",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Emptying residual waste roll container 770 l",
+      "quantity": 1,
+      "unit_price": 25.66,
+      "subtotal": 25.66,
+      "account_code": "610101",
+      "account_name": "Business address costs",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Rental roll container 770 l residual waste",
+      "quantity": 1,
+      "unit_price": 6.0,
+      "subtotal": 6.0,
+      "account_code": "610101",
+      "account_name": "Business address costs",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

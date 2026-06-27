@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "PDF.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/PDF.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "invoice",
+    "document_number": "BE261701442255",
+    "receipt_number": null,
+    "issue_date": "2026-06-18",
+    "due_date": "2026-06-22",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-06-07",
+      "end": "2026-06-14"
+    },
+    "status": "direct_debit",
+    "language": "nl"
+  },
+  "supplier": {
+    "name": "Radius Business Solutions",
+    "legal_name": "Radius Business Solutions (Belgium) NV",
+    "address": "TIO3 Oscar Delghuststraat 60, 9600 Ronse, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE0865944140"
+    ],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "Beetech Commv",
+    "legal_name": "Beetech Commv",
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE1013851522"
+    ],
+    "tax_numbers": [
+      "Buyer reference 209635"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 80.53,
+    "tax_total": 16.92,
+    "total_including_tax": 97.45,
+    "amount_due": 97.45,
+    "amount_paid": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 80.53,
+        "tax_amount": 16.92,
+        "description": "Belgian VAT 21%"
+      }
+    ],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "Diesel - B7",
+      "quantity": 47.195,
+      "unit_price": 1.70650562,
+      "amount": 80.53,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-06-07",
+        "end": "2026-06-14"
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": "SEPA direct debit",
+    "payment_reference": "261701442255 / domiciliring RF143930",
+    "iban": "BE26 3900 1034 7329",
+    "structured_communication": null,
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_invoice",
+    "supplier_or_counterparty": "Radius Business Solutions (Belgium) NV",
+    "description": "Diesel B7 fuel card invoice",
+    "total_amount": 97.45,
+    "currency": "EUR",
+    "vat_clues": [
+      "Belgian supplier",
+      "21% VAT",
+      "fuel"
+    ],
+    "review_reasons": [
+      "Fuel/car expense: vehicle and VAT deduction percentage needed before auto-booking."
+    ]
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "18/06/2026 15:21 Pagina 1\nCommerciële factuur\nDocumentnummer BE261701442255\nDocumentdatum 18/06/2026\nMunteenheid factuur Euro\nFactuurtype Commerciële factuur\ndatum belastingen 14/06/2026\nstartdatum 07/06/2026\neinddatum 14/06/2026\nVervaldatum 22/06/2026\nReferentie koper 209635\nAdditionele referentie\nID PDF Beschrijving PDF copy of the Invoice\nPartners\nVerkoper Radius Business Solutions (Belgium) NV Numero d'entreprise/ondernemingsnummer/ 0865944140\nUnternehmensnummer\nGeregistreerde juridische Radius Business Solutions (Belgium) NV\nentiteit\nAdres TIO3 Oscar Delghuststraat 60\nStad RONSE Postcode 9600\nLand BELGIE\nBelastingtype VAT Belasting-ID BE0865944140\nKoper Beetech Commv Numero d'entreprise/ondernemingsnummer/ 1013851522\nUnternehmensnummer\nGeregistreerde juridische Beetech Commv\nentiteit\nAdres Bergstraat 147\nStad KAMPENHOUT Postcode 1910\nLand BELGIE\nBelastingtype VAT Belasting-ID BE1013851522\nBetaling\nBetaaltype 59 -SEPA incasso ID betaling 261701442255\nBetalingsspecificaties SEPA direct debit\nBetaling rekening BE26390010347329 Houder betaalrekening Radius Business Solutions (Belgium) NV\nbegunstigde\ndomiciliring RF143930\nFinanciële instelling BBRUBEBB\nBetaaltermijn 7 days after invoice date\nDetail\nRegelnu Naam Gefactureerde Maateenheid Eenheidsprijs Regel totaalbedrag\nmmer aantal\n1 Diesel - B7 47,19 eenheid 1,70650562 Euro 80,53 Euro\nBeschrijving 5\nType Standaardtarief VAT Percentage 21\n(onderworpen\naan standaard\nbtw)\nBelastingen\nType Standaardtarief Percentage 21 Belastinggronds 80,53 EUR Subtotaal belasting 16,92 EUR\n(onderworpen lag\naan standaard\nbtw)\nTotaal belastingen 16,92 EUR\nTotaal\nTotaal regels 80,53 EUR\nTotaal exclusief belastingen 80,53 EUR\nTotaal inclusief belastingen 97,45 EUR\nTotaal te betalen 97,45 EUR"
+  }
+}

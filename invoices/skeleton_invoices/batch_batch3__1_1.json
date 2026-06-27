@@ -1,0 +1,169 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "7604089439",
+    "receipt_number": null,
+    "issue_date": "2026-06-09",
+    "due_date": "2026-06-26",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-06-01",
+      "end": "2026-06-30"
+    }
+  },
+  "supplier": {
+    "legal_name": "Proximus NV van publiek recht",
+    "address": "Koning Albert II-laan 27, 1030 Brussel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0202239951"
+    ]
+  },
+  "customer": {
+    "legal_name": "CommV BEETECH",
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1013851522"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 135.93,
+    "tax_total": 28.55,
+    "total_including_tax": 164.48,
+    "amount_due": 164.48
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 135.93,
+        "tax_amount": 28.55,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Business Flex Essential pack at Bergstraat 147",
+      "quantity": 1,
+      "unit_price": 67.0,
+      "amount": 67.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      }
+    },
+    {
+      "description": "Business Mobile Flex S mobile subscription 0474828317 after pack discount",
+      "quantity": 1,
+      "unit_price": 11.0,
+      "amount": 11.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      }
+    },
+    {
+      "description": "Business Mobile Essential 0471277151 including mobile data usage",
+      "quantity": 1,
+      "unit_price": 39.93,
+      "amount": 39.93,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      }
+    },
+    {
+      "description": "Business Mobile Essential 0475236555 after special discount",
+      "quantity": 1,
+      "unit_price": 9.0,
+      "amount": 9.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      }
+    },
+    {
+      "description": "Business Mobile Essential 0478271755 after special discount",
+      "quantity": 1,
+      "unit_price": 9.0,
+      "amount": 9.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-06-01",
+        "end": "2026-06-30"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "direct_debit",
+    "payment_reference": null,
+    "iban": "BE82 2100 0008 8968",
+    "structured_communication": "+++760/4089/43961+++"
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Business Flex Essential pack at Bergstraat 147",
+      "quantity": 1,
+      "unit_price": 67.0,
+      "subtotal": 67.0,
+      "account_code": "616200",
+      "account_name": "Telephone and internet expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Business Mobile Flex S mobile subscription 0474828317 after pack discount",
+      "quantity": 1,
+      "unit_price": 11.0,
+      "subtotal": 11.0,
+      "account_code": "616200",
+      "account_name": "Telephone and internet expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Business Mobile Essential 0471277151 including mobile data usage",
+      "quantity": 1,
+      "unit_price": 39.93,
+      "subtotal": 39.93,
+      "account_code": "616200",
+      "account_name": "Telephone and internet expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Business Mobile Essential 0475236555 after special discount",
+      "quantity": 1,
+      "unit_price": 9.0,
+      "subtotal": 9.0,
+      "account_code": "616200",
+      "account_name": "Telephone and internet expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Business Mobile Essential 0478271755 after special discount",
+      "quantity": 1,
+      "unit_price": 9.0,
+      "subtotal": 9.0,
+      "account_code": "616200",
+      "account_name": "Telephone and internet expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

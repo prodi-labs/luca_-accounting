@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "DABF774C0053",
+    "receipt_number": null,
+    "issue_date": "2026-05-28",
+    "due_date": "2026-05-28",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "OpenAI OpCo, LLC",
+    "address": "1455 3rd Street, San Francisco, California 94158, United States",
+    "country": "US",
+    "vat_numbers": [
+      "EU372041333"
+    ]
+  },
+  "customer": {
+    "legal_name": "Talio Technologies",
+    "address": "Bredestraat 49, 3293 Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": 15.05,
+    "tax_total": 0.0,
+    "total_including_tax": 15.05,
+    "amount_due": 15.05
+  },
+  "tax": {
+    "reverse_charge": true,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 15.05,
+        "tax_amount": 0.0,
+        "description": "0% reverse charge"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "OpenAI API usage credit",
+      "quantity": 1,
+      "unit_price": 15.05,
+      "amount": 15.05,
+      "currency": "USD",
+      "tax_rate": 0.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "OpenAI API usage credit",
+      "quantity": 1,
+      "unit_price": 15.05,
+      "subtotal": 15.05,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    }
+  ]
+}

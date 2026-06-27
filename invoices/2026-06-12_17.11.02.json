@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "2026-06-12 17.11.02.jpg",
+    "source_type": "image",
+    "workspace_path": "/workspace/.cache/2026-06-12 17.11.02.jpg",
+    "extraction_method": "manual_visual_parse"
+  },
+  "document": {
+    "document_type": "receipt",
+    "document_number": "1794510129",
+    "receipt_number": "1794510129",
+    "issue_date": "2026-06-12",
+    "due_date": null,
+    "paid_date": "2026-06-12",
+    "billing_period": {
+      "start": null,
+      "end": null
+    },
+    "status": "paid",
+    "language": "fr"
+  },
+  "supplier": {
+    "name": "Lukoil Buizingen",
+    "legal_name": "Lukoil",
+    "address": "Alsembergsesteenweg 19, 1501 Buizingen, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": null,
+    "legal_name": null,
+    "address": null,
+    "country": null,
+    "email": null,
+    "vat_numbers": [],
+    "tax_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 19.45,
+    "tax_total": 4.09,
+    "total_including_tax": 23.54,
+    "amount_due": null,
+    "amount_paid": 23.54
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 19.45,
+        "tax_amount": 4.09,
+        "description": "TVA 21%"
+      }
+    ],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "AdBlue",
+      "quantity": 18.12,
+      "unit_price": 1.299,
+      "amount": 23.54,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact",
+    "payment_reference": "Card ending 8931 / STAN 559262 / auth CD6477",
+    "iban": null,
+    "structured_communication": null,
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "receipt",
+    "supplier_or_counterparty": "Lukoil Buizingen",
+    "description": "AdBlue purchase",
+    "total_amount": 23.54,
+    "currency": "EUR",
+    "vat_clues": [
+      "Belgian receipt",
+      "21% VAT",
+      "vehicle/fuel-related product"
+    ],
+    "review_reasons": [
+      "Vehicle-related expense: vehicle and VAT deduction percentage needed before auto-booking.",
+      "Supplier VAT number is not visible on the receipt photo."
+    ]
+  },
+  "extraction": {
+    "confidence": "medium",
+    "warnings": [
+      "Parsed from receipt photo; supplier VAT number is not visible."
+    ],
+    "raw_text": "LUKOIL ticket client transaction accepted. Date 12-06-2026 14:22:33. Pompe 7, AdBlue, volume 18.12 l, price 1.299/l, total 23.54. TVA 21% 4.09, net 19.45. Bancontact card ending 8931, ticket 1794510129. Lukoil Buizingen, Alsembergsesteenweg 19, 1501 Buizingen."
+  }
+}

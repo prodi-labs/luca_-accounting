@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "Receipt-2099-4444.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/Receipt-2099-4444.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "receipt",
+    "document_number": "F1KO5AKC0015",
+    "receipt_number": "20994444",
+    "issue_date": null,
+    "due_date": null,
+    "paid_date": "2026-06-03",
+    "billing_period": {
+      "start": "2026-06-03",
+      "end": "2026-07-03"
+    },
+    "status": "paid",
+    "language": "en"
+  },
+  "supplier": {
+    "name": "OpenAI",
+    "legal_name": "OpenAI Ireland Limited",
+    "address": "1st Floor, The Liffey Trust Center, 117-126 Sheriff Street Upper, Dublin, D01 YC43, Ireland",
+    "country": "IE",
+    "email": "ar@openai.com",
+    "vat_numbers": [
+      "IE4143435AH"
+    ],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "Stijn Bruggeman",
+    "legal_name": null,
+    "address": "Bredestraat 49, 3290 Diest, Belgium",
+    "country": "BE",
+    "email": "stijn@auros.studio",
+    "vat_numbers": [
+      "BE1034271309"
+    ],
+    "tax_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 116.41,
+    "tax_total": 0.0,
+    "total_including_tax": 116.41,
+    "amount_due": null,
+    "amount_paid": 116.41
+  },
+  "tax": {
+    "reverse_charge": true,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 116.41,
+        "tax_amount": 0.0,
+        "description": "0% reverse charge"
+      }
+    ],
+    "notes": [
+      "Tax to be paid on reverse charge basis."
+    ]
+  },
+  "line_items": [
+    {
+      "description": "ChatGPT Pro Subscription (per seat)",
+      "quantity": 1,
+      "unit_price": 189.26,
+      "amount": 189.26,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-06-03",
+        "end": "2026-07-03"
+      },
+      "notes": []
+    },
+    {
+      "description": "Unused time on ChatGPT Pro Subscription after 03 Jun 2026",
+      "quantity": 1,
+      "unit_price": null,
+      "amount": -72.85,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-06-03",
+        "end": "2026-06-30"
+      },
+      "notes": [
+        "Credit amount sign inferred because subtotal equals 189.26 - 72.85."
+      ]
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null,
+    "payment_history": [
+      {
+        "payment_method": "Mastercard ending 0168",
+        "date": "2026-06-03",
+        "amount_paid": 116.41,
+        "currency": "EUR",
+        "receipt_number": "20994444"
+      }
+    ]
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_receipt",
+    "supplier_or_counterparty": "OpenAI Ireland Limited",
+    "description": "ChatGPT Pro subscription with unused-time credit",
+    "total_amount": 116.41,
+    "currency": "EUR",
+    "vat_clues": [
+      "Irish supplier",
+      "reverse charge",
+      "0% tax"
+    ],
+    "review_reasons": []
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "Receipt\nInvoice number F1KO5AKC\u00000015\nReceipt number 2099\u00004444\nDate paid June 3, 2026\nOpenAI Ireland Limited Bill to\n1st Floor, The Liffey Trust Center Stijn Bruggeman\n117 - 126 Sheriff Street Upper Bredestraat 49\nDublin 3290 Diest\nCo. Dublin Belgium\nD01 YC43 stijn@auros.studio\nIreland BE VAT BE1034271309\nar@openai.com\nIE VAT IE4143435AH\n€116.41 paid on June 3, 2026\nDescription Qty Unit price Tax Amount\nChatGPT Pro Subscription (per seat) 1 €189.26 0%\u00001\u0000 €189.26\nJun 3\u0000Jul 3, 2026\nUnused time on ChatGPT Pro Subscription after 03 Jun 2026 1 0%\u00001\u0000 \u0000€72.85\nJun 3\u0000Jun 30, 2026\nSubtotal €116.41\nTotal €116.41\nAmount paid €116.41\nPayment history\nPayment method Date Amount paid Receipt number\nMastercard - 0168 June 3, 2026 €116.41 2099\u00004444\n\u00001\u0000 Tax to be paid on reverse charge basis\nPage 1 of 1"
+  }
+}

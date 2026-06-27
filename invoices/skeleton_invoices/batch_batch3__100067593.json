@@ -1,0 +1,125 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "441821507",
+    "receipt_number": null,
+    "issue_date": "2026-06-04",
+    "due_date": null,
+    "paid_date": "2026-06-03",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Coolblue België N.V.",
+    "address": "Borsbeeksebrug 28, 2600 Berchem, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0867686774"
+    ]
+  },
+  "customer": {
+    "legal_name": "Beetech",
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1013851522"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 228.91,
+    "tax_total": 48.08,
+    "total_including_tax": 276.99,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 228.91,
+        "tax_amount": 48.08,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Apple USB-C Charger 20W",
+      "quantity": 1,
+      "unit_price": 23.13,
+      "amount": 23.13,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "HP 207X Toner Cartridge Cyan High Capacity",
+      "quantity": 1,
+      "unit_price": 106.61,
+      "amount": 106.61,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "HP 207X Toner Cartridge Black High Capacity",
+      "quantity": 1,
+      "unit_price": 99.17,
+      "amount": 99.17,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact",
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Apple USB-C Charger 20W",
+      "quantity": 1,
+      "unit_price": 23.13,
+      "subtotal": 23.13,
+      "account_code": "611200",
+      "account_name": "Small equipment",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "HP 207X Toner Cartridge Cyan High Capacity",
+      "quantity": 1,
+      "unit_price": 106.61,
+      "subtotal": 106.61,
+      "account_code": "611000",
+      "account_name": "Office supplies and printing",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "HP 207X Toner Cartridge Black High Capacity",
+      "quantity": 1,
+      "unit_price": 99.17,
+      "subtotal": 99.17,
+      "account_code": "611000",
+      "account_name": "Office supplies and printing",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    }
+  ]
+}

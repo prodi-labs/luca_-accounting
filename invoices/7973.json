@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "7973.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/7973.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "tax_assessment",
+    "document_number": "G/VKAlfa/2026/7973",
+    "receipt_number": null,
+    "issue_date": "2026-06-02",
+    "due_date": "2026-08-08",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    },
+    "status": "due",
+    "language": "nl"
+  },
+  "supplier": {
+    "name": "Gemeente Kampenhout",
+    "legal_name": "Gemeente Kampenhout",
+    "address": "Gemeentehuisstraat 32, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "email": "financielezaken@kampenhout.be",
+    "vat_numbers": [
+      "BE0207533280"
+    ],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "Beetech CommV",
+    "legal_name": null,
+    "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [],
+    "tax_numbers": [
+      "Ond.nr. klant 1013.851.522",
+      "Klantnummer 29974",
+      "Artikel 250005237"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 100.0,
+    "tax_total": 0.0,
+    "total_including_tax": 100.0,
+    "amount_due": 100.0,
+    "amount_paid": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [],
+    "notes": [
+      "Municipal tax assessment; no VAT charged."
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Annual general municipal tax for company / liberal profession / self-employed entity, assessment year 2025",
+      "quantity": 1,
+      "unit_price": 100.0,
+      "amount": 100.0,
+      "currency": "EUR",
+      "tax_rate": null,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE34 0971 2281 1090",
+    "structured_communication": "+++888/2605/18532+++",
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "tax_assessment",
+    "supplier_or_counterparty": "Gemeente Kampenhout",
+    "description": "Municipal business tax assessment for assessment year 2025",
+    "total_amount": 100.0,
+    "currency": "EUR",
+    "vat_clues": [
+      "No VAT; municipal tax assessment"
+    ],
+    "review_reasons": [
+      "Tax assessments require account-specific tax treatment; not an ordinary supplier invoice."
+    ]
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "GemeenteKampenhout\nGemeentehuisstraat32 BeetechCommV\n1910Kampenhout Bergstraat147\nContactpersoon:KarolienBroothaers 1910Kampenhout\n016/659962\n@ financielezaken@kampenhout.be\nOnd.nr.BTWBE0207.533.280\nIBANBE34097122811090\nAanslagbiljet Vervaldatum08/08/2026\nNummer Verzendingsdatum Aanslagjaar Artikel Klantnummer:29974\nG/VKAlfa/2026/7973 02/06/2026 2025 250005237 Ond.nr.klant:1013.851.522 1/1\nAGBvennootschappen\nDefinancieeldirecteurvanhetlokaalbestuurverwittigtudatuvolgensonderstaande Datumbelastingreglement: 19/12/2019\ngegevenswerdopgenomeninhetkohier. Datumuitvoerbaarverklaring: 01/06/2026\nLiggingbelastegoed: Verzendingsdatumaanslagbiljet: 02/06/2026\nBergstraat147,1910Kampenhout,België Uiterstedatumvanbetaling: 08/08/2026\nBelastbaarfeit,tariefenberekeningvandebelasting. Bedrag\ncategorie: vennootschap/vrij beroep/zelfstandige €100,00\nOPGELET: Indien u zelfstandige in bijberoep bent,\ngelieve hiervoor een bewijs te sturen naar financielezaken@kampenhout.be.\nBerekening: belasting per entiteit zie keerzijde aanslagbiljet artikel 2.\nTotaalbedragvoorditaanslagbiljet €100,00\nBezwaarschriftenmoetenwordengerichtaanhetcollegevan Eenbezwaarschriftmoetschriftelijk,gedagtekendenondertekendingediend\nburgemeesterenschepenen,Gemeentehuisstraat32,1910Kampenhout wordenbinnendedriemaandenterekenenvanafdederdewerkdagdievolgtop\nofverzendennaarbezwaarschrift@kampenhout.be. deverzendingvanhetaanslagbiljet.\nDebelastingsplichtigeofzijnvertegenwoordigerdiewenstgehoordtewordenmoet\ndituitdrukkelijkvrageninzijnbezwaarschrift.\nGelieveuitsluitendtebetalenoprekeningnummer:BE34097122811090\nMetvermeldingvanvolgendemededeling:+++888/2605/18532+++\nUiterstebetaaldatum:08/08/2026\nDit aanslagbiljet is gebaseerd op het belastingreglement goedgekeurd door de gemeenteraad van 19/12/2019\nSAMENVATTING:\nArt. 1: Er wordt een jaarlijkse algemene gemeentebelasting gevestigd ten laste van de entiteiten die op 1 januari van het aanslagjaar op het\ngrondgebied van de gemeente wonen, verblijven of gevestigd zijn. De entiteiten die worden belast zijn:\n1. een alleenstaande, dit is een natuurlijk persoon die voor een woning of een woongelegenheid op het grondgebied van de gemeente alleen\nis ingeschreven in het bevolkingsregister of vreemdelingenregister of er alleen verblijft\n2. een gezin, dit is een vereniging van twee of meer natuurlijke personen die, al dan niet door verwantschap aan elkaar verbonden,\ngewoonlijk in één en dezelfde woning wonen of er verblijven\n3. een vennootschap (rechtspersoon in de Kruispuntbank van ondernemingen)\n4. een vrij beroeper (natuurlijk persoon in de Kruispuntbank van ondernemingen)\n5. een zelfstandige (idem)\nOnder wonen in de gemeente wordt verstaan: op 1 januari van het aanslagjaar gedomicilieerd zijn in de gemeente, door inschrijving in het\nbevolkingsregister of in het vreemdelingenregister.\nOnder verblijven in de gemeente wordt verstaan: op 1 januari van het aanslagjaar op het grondgebied van de gemeente kunnen\nbeschikken over een woongelegenheid zonder voor deze woongelegenheid ingeschreven te zijn in de bevolkingsregisters.\nOnder woongelegenheid wordt verstaan: elke private woongelegenheid die door de eigenaar of de huurder ervan niet tot hoofdverblijf\ndient maar op elk ogenblik door hen voor bewoning kan worden gebruikt. Zodanig gelden de al dan niet in de kadastrale legger\ningeschreven landhuizen, bungalows, appartementen, weekendhuisjes, optrekjes en alle andere vaste woongelegenheden met inbegrip\nvan de met de chalets gelijkgestelde caravans.\nArt. 2: De belasting wordt per entiteit als volgt vastgesteld:\n 50 euro voor een alleenstaande\n 85 euro voor een gezin\n 100 euro voor een vennootschap (niet onderworpen aan VLAREM)\n 100 euro voor een vrij beroeper\n 100 euro voor een zelfstandige\n 750 euro voor een vennootschap met een VLAREM klasse 3 inrichting\n 1500 euro voor een vennootschap met een VLAREM klasse 2 inrichting\n 4000 euro voor een vennootschap met een VLAREM klasse 1 inrichting\nIndien meerdere entiteiten op één en hetzelfde adres geregistreerd zijn, wordt op elke entiteit de algemene gemeentebelasting geheven.\nArt. 3: De toestand op 1 januari van het aanslagjaar is bepalend voor de vestiging van de belasting. De algemene gemeentebelasting is voor\nzijn geheel (ondeelbaar) verschuldigd.\nIndien een natuurlijk persoon zich uitschrijft uit het bevolkings- of vreemdelingenregister in de loop van het aanslagjaar geeft dit geen\naanleiding tot een belastingvermindering.\nIndien een vennootschap, een vrij beroeper of zelfstandige zijn activiteiten stopzet in de loop van het aanslagjaar geeft dit geen\naanleiding tot een belastingvermindering.\nArt. 4:\n1. De belasting is verschuldigd door de alleenstaande, of door de referentiepersoon van het gezin, dit is het gezinslid dat gewoonlijk met\nde administratie in contact staat voor de aangelegenheden die het gezin betreffen. De andere leden van het gezin zijn hoofdelijk\naansprakelijk voor de betaling van de belasting.\n2. Indien een vennootschap, vrij beroeper of zelfstandige meer dan één vestiging heeft, is de belasting verschuldigd per vestiging die op 1\njanuari van het aanslagjaar een inschrijving heeft in de Kruispuntbank van Ondernemingen. Een vestiging is elk (gedeelte van een)\nonroerend goed of meerdere onroerende goederen die samen een geheel, een entiteit of een complex vormen op het grondgebied van\nde gemeente. Een maatschappelijke zetel wordt beschouwd als vestiging.\n3. Indien een vennootschap, vrij beroeper of zelfstandige een vestiging op het grondgebied van de gemeente heeft maar deze vestiging is\nniet geregistreerd in de Kruispuntbank van Ondernemingen zal de vennootschap, vrije beroeper of zelfstandige alsnog worden belast\nvolgens de gegevens waarover het gemeentebestuur beschikt.\nArt. 5: Aan een zelfstandige of vrij beroeper die zijn activiteiten uitoefent in bijberoep kan jaarlijks een vrijstelling van 50 euro\nworden toegekend indien hij dit kan staven met de nodige documenten. Deze vrijstelling moet ieder aanslagjaar opnieuw worden\naangevraagd. Indien de gemeente over voldoende informatie beschikt om de vrijstelling onmiddellijk toe te kennen, zal deze\nonmiddellijk in mindering gebracht worden.*\nArt. 6:\n1. De belasting is niet van toepassing op de publiekrechtelijke personen (bijvoorbeeld ziekenfondsen, scholen) en verenigingen zonder\nrechtspersoonlijkheid, met uitzondering van deze die een winstoogmerk nastreven. Deze vrijstelling is niet van toepassing op de\ngedeelten van die gebouwen welke door de beambten (werknemers) van die organismen privaat en voor hun persoonlijke gebruik worden\nbewoond\n2. De belasting is niet van toepassing op de staat, de provincie, de gemeente en de openbare instellingen. Deze vrijstelling is niet van\ntoepassing op de gedeelten van die gebouwen welke door de beambten (werknemers) van die organismen privaat en voor hun\npersoonlijke gebruik worden bewoond.\n3. De belasting is niet van toepassing op het statuut student-zelfstandige.\nArt. 7: De belasting wordt ingevorderd door middel van een kohier dat vastgesteld en uitvoerbaar verklaard wordt door het college van\nburgemeester en schepenen.\nArt. 8: De belasting moet betaald worden binnen twee maanden na de verzending van het aanslagbiljet.\nArt. 9: De belastingschuldige of zijn vertegenwoordiger kan tegen deze belasting een bezwaar indienen bij het college van burgemeester en\nschepenen. Het bezwaar moet schriftelijk worden ingediend, gemotiveerd en ondertekend zijn. Dit kan gebeuren door middel van een\naangetekend schrijven, door overhandiging tegen ontvangstbewijs of per e-mail naar bezwaarschrift@kampenhout.be.\nDe indiening van het bezwaarschrift moet, op straffe van verval, gebeuren binnen een termijn van drie maanden te rekenen vanaf de derde\nwerkdag volgend op de datum van verzending van het aanslagbiljet. Van het bezwaarschrift wordt een ontvangstmelding verstuurd binnen\nde vijftien kalenderdagen na de indiening ervan. Laattijdige bezwaren zijn onontvankelijk. Bijgevolg kan u niet meer ontheven worden van de\nbelasting.\nWas u niet meer actief op 01.01.2025 ? Actualiseer uw gegevens in de KBO (datum wijziging, stopzetting vestiging en/of\nonderneming in de KBO moet vóór 01.01.2025 zijn) en bezorg het lokaal bestuur hiervan de nodige documenten vóór het\nverstrijken van de bezwaartermijn. Dan kan u eventueel ontheven worden van de algemene gemeentebelasting aanslagjaar 2025.\n*Is aangerekend volgens de gegevens waarover het lokaal bestuur beschikt. Indien dit onjuist zou zijn, bezorg dan vóór het\nverstrijken van de bezwaartermijn het lokaal bestuur de nodige bewijsstukken (bijvoorbeeld loopbaanattest ondernemingsloket)\nzodat de aanslag gecorrigeerd kan worden."
+  }
+}

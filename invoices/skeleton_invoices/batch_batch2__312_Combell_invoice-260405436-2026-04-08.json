@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "260405436",
+    "receipt_number": null,
+    "issue_date": "2026-04-08",
+    "due_date": "2026-05-08",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-04-08",
+      "end": "2027-04-08"
+    }
+  },
+  "supplier": {
+    "legal_name": "Combell nv",
+    "address": "Skaldenstraat 121, 9042 Gent, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0541977701"
+    ]
+  },
+  "customer": {
+    "legal_name": "De Blije Staart",
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE in aanvraag"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 38.16,
+    "tax_total": 8.01,
+    "total_including_tax": 46.17,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 38.16,
+        "tax_amount": 8.01,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Office Solutions - Microsoft 365 Backup with one-time discount for deblijestaart.onmicrosoft.com",
+      "quantity": 2,
+      "unit_price": 21.48,
+      "amount": 38.16,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-08",
+        "end": "2027-04-08"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "paid",
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Office Solutions - Microsoft 365 Backup with one-time discount for deblijestaart.onmicrosoft.com",
+      "quantity": 2,
+      "unit_price": 21.48,
+      "subtotal": 38.16,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

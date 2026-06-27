@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "313_GitHub_github-BartCalders-receipt-2026-04-06.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/313_GitHub_github-BartCalders-receipt-2026-04-06.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "receipt",
+    "document_number": "45L64969PU294984V",
+    "receipt_number": "45L64969PU294984V",
+    "issue_date": "2026-04-06",
+    "due_date": null,
+    "paid_date": "2026-04-06",
+    "billing_period": {
+      "start": "2026-04-06",
+      "end": "2026-05-05"
+    },
+    "status": "paid",
+    "language": "en"
+  },
+  "supplier": {
+    "name": "GitHub",
+    "legal_name": "GitHub, Inc.",
+    "address": "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States",
+    "country": "US",
+    "email": null,
+    "vat_numbers": [],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "BartCalders",
+    "legal_name": null,
+    "address": null,
+    "country": "BE",
+    "email": "administratie@deblijestaart.be",
+    "vat_numbers": [
+      "BE1017959867"
+    ],
+    "tax_numbers": []
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": 10.0,
+    "tax_total": 0.0,
+    "total_including_tax": 10.0,
+    "amount_due": null,
+    "amount_paid": 10.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 10.0,
+        "tax_amount": 0.0,
+        "description": "Tax"
+      }
+    ],
+    "notes": [
+      "Receipt states VAT/GST paid directly by GitHub, where applicable."
+    ]
+  },
+  "line_items": [
+    {
+      "description": "GitHub Copilot Pro - month",
+      "quantity": 1,
+      "unit_price": 10.0,
+      "amount": 10.0,
+      "currency": "USD",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-04-06",
+        "end": "2026-05-05"
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": "PayPal account administratie@deblijestaart.be",
+    "payment_reference": "Transaction ID 45L64969PU294984V",
+    "iban": null,
+    "structured_communication": null,
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_receipt",
+    "supplier_or_counterparty": "GitHub, Inc.",
+    "description": "GitHub Copilot Pro monthly subscription",
+    "total_amount": 10.0,
+    "currency": "USD",
+    "vat_clues": [
+      "US supplier",
+      "VAT/GST identification BE1017959867",
+      "tax 0.00"
+    ],
+    "review_reasons": []
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "We received payment for your GitHub.com subscription. Thanks for your business!\nQuestions? Visit https://support.github.com/contact.\nDate 2026-04-06 08:42AM PDT\nAccount billed BartCalders (administratie@deblijestaart.be)\nVAT/GST Identification BE1017959867\nNumber\nTransaction ID 45L64969PU294984V\nCharged to PayPal account (administratie@deblijestaart.be)\nDescription Amount\n$10.00 USD\nGitHub Copilot Pro - month\nApr 6, 2026 - May 5, 2026\nTax $0.00 USD\nTotal $10.00 USD*\nGitHub, Inc. https://support.github.com/contact\n88 Colin P. Kelly Jr. Street\nSan Francisco, CA 94107\nUnited States\n* VAT/GST paid directly by GitHub, where applicable"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "2WLZLBLE0009",
+    "receipt_number": null,
+    "issue_date": "2026-06-02",
+    "due_date": "2026-06-02",
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-06-01",
+      "end": "2026-07-01"
+    }
+  },
+  "supplier": {
+    "legal_name": "LiveKit",
+    "address": "4285 Payne Avenue #9154, San Jose, California 95157, United States",
+    "country": "US",
+    "vat_numbers": []
+  },
+  "customer": {
+    "legal_name": "Jarne Verstraete",
+    "address": "Bredestraat 49, 3293 Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": 50.0,
+    "tax_total": null,
+    "total_including_tax": 50.0,
+    "amount_due": 50.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": []
+  },
+  "line_items": [
+    {
+      "description": "Ship",
+      "quantity": 1,
+      "unit_price": 50.0,
+      "amount": 50.0,
+      "currency": "USD",
+      "tax_rate": null,
+      "period": {
+        "start": "2026-06-01",
+        "end": "2026-07-01"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Ship",
+      "quantity": 1,
+      "unit_price": 50.0,
+      "subtotal": 50.0,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": null,
+      "vat_code": "21% EX S"
+    }
+  ]
+}

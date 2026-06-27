@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "FA-0001-00-20260000041880-0000016079000-16042026-2.pdf",
+    "source_type": "pdf",
+    "workspace_path": "/workspace/.cache/FA-0001-00-20260000041880-0000016079000-16042026-2.pdf",
+    "extraction_method": "pdfplumber_text"
+  },
+  "document": {
+    "document_type": "invoice",
+    "document_number": "2026.041880",
+    "receipt_number": null,
+    "issue_date": "2026-04-16",
+    "due_date": "2026-05-01",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    },
+    "status": "due",
+    "language": "nl"
+  },
+  "supplier": {
+    "name": "Actief Interim",
+    "legal_name": "ACTIEF INTERIM nv",
+    "address": "Bosstraat 67 bus 2, 3560 Lummen, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE0433344035"
+    ],
+    "tax_numbers": [
+      "VG.20/BUP",
+      "W.INT.033",
+      "00148-406-20121025"
+    ]
+  },
+  "customer": {
+    "name": "De Blije Staart BV",
+    "legal_name": null,
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE1017959867"
+    ],
+    "tax_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 713.88,
+    "tax_total": 149.91,
+    "total_including_tax": 863.79,
+    "amount_due": 863.79,
+    "amount_paid": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 713.88,
+        "tax_amount": 149.91,
+        "description": "Belgian VAT 21%"
+      }
+    ],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "Wages and salaries - Callaert Eysackers Yolanda, week 15",
+      "quantity": 30.0,
+      "unit_price": 18.06,
+      "amount": 541.8,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-07",
+        "end": "2026-04-11"
+      },
+      "notes": []
+    },
+    {
+      "description": "Travel costs - public transport",
+      "quantity": 4.0,
+      "unit_price": 20.07,
+      "amount": 80.28,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-07",
+        "end": "2026-04-11"
+      },
+      "notes": []
+    },
+    {
+      "description": "Administration costs / start-up cost",
+      "quantity": 1.0,
+      "unit_price": 75.0,
+      "amount": 75.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    },
+    {
+      "description": "Dimona costs",
+      "quantity": 30.0,
+      "unit_price": 0.56,
+      "amount": 16.8,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-07",
+        "end": "2026-04-11"
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE47 2350 4344 3480",
+    "structured_communication": "+++260/0041/88045+++",
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_invoice",
+    "supplier_or_counterparty": "ACTIEF INTERIM nv",
+    "description": "Temporary agency worker costs, travel costs, Dimona and administration costs",
+    "total_amount": 863.79,
+    "currency": "EUR",
+    "vat_clues": [
+      "Belgian supplier",
+      "21% VAT"
+    ],
+    "review_reasons": []
+  },
+  "extraction": {
+    "confidence": "high",
+    "warnings": [],
+    "raw_text": "Nr-Erk. : VG.20/BUP W.INT.033 00148-406-20121025\nBTW nr. : BE0433344035\nRPR : Hasselt\nIBAN / BIC : BE47 2350 4344 3480 / GEBABEBB\nTelefoon : 03/3202525\nACTIEF INTERIM nv\nBosstraat 67 bus 2\nActief Interim Westmalle (N-WES) LUMMEN\nAntwerpsesteenweg 245\n2390 WESTMALLE\nDe Blije Staart BV De Blije Staart BV\nT.a.v. Dhr. Calders Bart T.a.v. Dhr. Calders Bart\nDen Haan 6 Den Haan 6\n2980 Zoersel 2980 Zoersel\nFacturatieadres Verzendadres\nFactuur : 2026.041880 BTW-nr. klant : BE 1017.959.867\nFactuurdatum : 16/04/2026\nKlantnummer : 16079/000 Vervaldatum : 01/05/2026\nCode Omschrijving Bedrag\n1 Wedden en lonen 541,80\n321 Reiskosten 80,28\n530 Administratiekosten 75,00\n531 Dimona-kosten 16,80\nMaatstaf v. Totaal excl. BTW : 713,88 EUR\n% BTW BTW\nheffing Totaal BTW : 149,91 EUR\n21,00 713,88 149,91\n713,88 149,91 TOTAAL TE BETALEN : 863,79 EUR\nFactuur betaalbaar te LUMMEN Gestructureerde mededeling +++260/0041/88045+++\nFactuur betaalbaar op volgend(e) rekeningnummer(s) :\n: IBAN: BE47 2350 4344 3480 BIC: GEBABEBB\n: IBAN: BE14 3350 3222 7183 BIC: BBRUBEBB\n: IBAN: BE35 4500 5490 0137 BIC: KREDBEBB\n: IBAN: BE97 0689 5504 4849 BIC: GKCCBEBB\nNr-Erk. : VG.20/BUP W.INT.033 00148-406-20121025\nBTW nr. : BE0433344035\nRPR : Hasselt\nIBAN / BIC : BE47 2350 4344 3480 / GEBABEBB\nTelefoon : 03/3202525\nACTIEF INTERIM nv\nBosstraat 67 bus 2\nActief Interim Westmalle (N-WES) LUMMEN\nAntwerpsesteenweg 245\n2390 WESTMALLE\nBijlage bij factuur 2026.041880 Factuurdatum : 16/04/2026 Pag. : 1 / 1\nGebruiker : 16079/000 De Blije Staart BV\nCode Omschrijving Aantal Tarief Coëf. % Totaal % BTW\nWKN-nummer Naam van - tot\n1042010 Callaert Eysackers Yolanda 07/04/2026 - 11/04/2026 Week : 15\n1101 GEWERKTE UREN 30,0000 18,0600 100,00 541,80 21,0\n1411 DIMONA-KOSTEN 30,0000 0,5600 100,00 16,80 21,0\n2345 ANDER OPENBAAR VERVOER DAN 4,0000 20,0700 100,00 80,28 21,0\n2462 OPSTARTKOST 1,0000 75,0000 100,00 75,00 21,0\n713,88\nTotaal facturatieklant : 16079/000 De Blije Staart BV\n1101 GEWERKTE UREN 30,00 541,80\n1411 DIMONA-KOSTEN 30,00 16,80\n2345 ANDER OPENBAAR VERVOER DAN T 4,00 80,28\n2462 OPSTARTKOST 1,00 75,00\n713,88"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": null,
+    "receipt_number": null,
+    "issue_date": null,
+    "due_date": null,
+    "paid_date": "2026-05-17",
+    "billing_period": {
+      "start": "2026-05-01",
+      "end": "2026-05-31"
+    }
+  },
+  "supplier": {
+    "legal_name": "Twilio Ireland Limited",
+    "address": "70 Sir John Rogerson's Quay, Dublin 2, D02 R296, Ireland",
+    "country": "IE",
+    "vat_numbers": [
+      "IE3335493BH"
+    ]
+  },
+  "customer": {
+    "legal_name": "Talio",
+    "address": "Bredestraat 49, 3290 Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "USD",
+    "subtotal_excluding_tax": null,
+    "tax_total": null,
+    "total_including_tax": 10.97,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": []
+  },
+  "line_items": [
+    {
+      "description": "API Services",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 10.97,
+      "currency": "USD",
+      "tax_rate": null,
+      "period": {
+        "start": "2026-05-01",
+        "end": "2026-05-31"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "API Services",
+      "quantity": null,
+      "unit_price": null,
+      "subtotal": 10.97,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": null,
+      "vat_code": "21% EU S"
+    }
+  ]
+}

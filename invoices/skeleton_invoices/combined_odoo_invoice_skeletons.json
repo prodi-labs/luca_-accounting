@@ -1,0 +1,3198 @@
+{
+  "document_count": 31,
+  "documents": [
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "5581714335",
+        "receipt_number": null,
+        "issue_date": "2026-05-31",
+        "due_date": null,
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-05-01",
+          "end": "2026-05-31"
+        }
+      },
+      "supplier": {
+        "legal_name": "Google Cloud EMEA Limited",
+        "address": "Velasco, Clanwilliam Place, Dublin 2, Ireland",
+        "country": "IE",
+        "vat_numbers": [
+          "IE3668997OH"
+        ]
+      },
+      "customer": {
+        "legal_name": "Taliohq",
+        "address": "Bredestraat 49, 3290 Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1034271309"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 13.6,
+        "tax_total": 0.0,
+        "total_including_tax": 13.6,
+        "amount_due": 13.6
+      },
+      "tax": {
+        "reverse_charge": true,
+        "tax_lines": [
+          {
+            "rate": 0.0,
+            "base": 13.6,
+            "tax_amount": 0.0,
+            "description": "VAT 0% reverse charge"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Google Workspace Business Starter Commitment",
+          "quantity": 2,
+          "unit_price": null,
+          "amount": 13.6,
+          "currency": "EUR",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-05-01",
+            "end": "2026-05-31"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Google Workspace Business Starter Commitment",
+          "quantity": 2,
+          "unit_price": null,
+          "subtotal": 13.6,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EU S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "F/2026/00016",
+        "receipt_number": null,
+        "issue_date": "2026-05-31",
+        "due_date": "2026-12-31",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "iumhs BV",
+        "address": "Weggevoerdenstraat 24, 3020 Herent, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1008281148"
+        ]
+      },
+      "customer": {
+        "legal_name": "Talio Technologies",
+        "address": "Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1034271309"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 1041.67,
+        "tax_total": 218.75,
+        "total_including_tax": 1260.42,
+        "amount_due": 1260.42
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 1041.67,
+            "tax_amount": 218.75,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Administrative and support services up to and including July",
+          "quantity": 1.0,
+          "unit_price": 1041.665,
+          "amount": 1041.67,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE46 0019 7707 7036",
+        "structured_communication": "+++000/0001/18218+++"
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Administrative and support services up to and including July",
+          "quantity": 1.0,
+          "unit_price": 1041.665,
+          "subtotal": 1041.67,
+          "account_code": "612050",
+          "account_name": "Administrative services",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "2WLZLBLE0009",
+        "receipt_number": null,
+        "issue_date": "2026-06-02",
+        "due_date": "2026-06-02",
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-06-01",
+          "end": "2026-07-01"
+        }
+      },
+      "supplier": {
+        "legal_name": "LiveKit",
+        "address": "4285 Payne Avenue #9154, San Jose, California 95157, United States",
+        "country": "US",
+        "vat_numbers": []
+      },
+      "customer": {
+        "legal_name": "Jarne Verstraete",
+        "address": "Bredestraat 49, 3293 Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1034271309"
+        ]
+      },
+      "amounts": {
+        "currency": "USD",
+        "subtotal_excluding_tax": 50.0,
+        "tax_total": null,
+        "total_including_tax": 50.0,
+        "amount_due": 50.0
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": []
+      },
+      "line_items": [
+        {
+          "description": "Ship",
+          "quantity": 1,
+          "unit_price": 50.0,
+          "amount": 50.0,
+          "currency": "USD",
+          "tax_rate": null,
+          "period": {
+            "start": "2026-06-01",
+            "end": "2026-07-01"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Ship",
+          "quantity": 1,
+          "unit_price": 50.0,
+          "subtotal": 50.0,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": null,
+          "vat_code": "21% EX S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "DABF774C0053",
+        "receipt_number": null,
+        "issue_date": "2026-05-28",
+        "due_date": "2026-05-28",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "OpenAI OpCo, LLC",
+        "address": "1455 3rd Street, San Francisco, California 94158, United States",
+        "country": "US",
+        "vat_numbers": [
+          "EU372041333"
+        ]
+      },
+      "customer": {
+        "legal_name": "Talio Technologies",
+        "address": "Bredestraat 49, 3293 Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1034271309"
+        ]
+      },
+      "amounts": {
+        "currency": "USD",
+        "subtotal_excluding_tax": 15.05,
+        "tax_total": 0.0,
+        "total_including_tax": 15.05,
+        "amount_due": 15.05
+      },
+      "tax": {
+        "reverse_charge": true,
+        "tax_lines": [
+          {
+            "rate": 0.0,
+            "base": 15.05,
+            "tax_amount": 0.0,
+            "description": "0% reverse charge"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "OpenAI API usage credit",
+          "quantity": 1,
+          "unit_price": 15.05,
+          "amount": 15.05,
+          "currency": "USD",
+          "tax_rate": 0.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "OpenAI API usage credit",
+          "quantity": 1,
+          "unit_price": 15.05,
+          "subtotal": 15.05,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EX S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "in_1Tf6EmCcKlYJxALV9ku1uOAO",
+        "receipt_number": "G0DPRQD1-0007",
+        "issue_date": "2026-06-06",
+        "due_date": "2026-06-06",
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-06-06",
+          "end": "2026-07-06"
+        }
+      },
+      "supplier": {
+        "legal_name": "Notion Labs, Inc.",
+        "address": "685 Market St, San Francisco, CA 94105, United States",
+        "country": "US",
+        "vat_numbers": [
+          "EU528003828"
+        ]
+      },
+      "customer": {
+        "legal_name": "Talio",
+        "address": "Bredestraat 49, 3293 Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1034271309"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 23.0,
+        "tax_total": 0.0,
+        "total_including_tax": 23.0,
+        "amount_due": 23.0
+      },
+      "tax": {
+        "reverse_charge": true,
+        "tax_lines": [
+          {
+            "rate": 0.0,
+            "base": 23.0,
+            "tax_amount": 0.0,
+            "description": "Tax"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Plus Plan Monthly x 2 members",
+          "quantity": 2,
+          "unit_price": null,
+          "amount": 23.0,
+          "currency": "EUR",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-06-06",
+            "end": "2026-07-06"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Plus Plan Monthly x 2 members",
+          "quantity": 2,
+          "unit_price": null,
+          "subtotal": 23.0,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EX S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "receipt",
+        "document_number": "F1KO5AKC0015",
+        "receipt_number": "20994444",
+        "issue_date": null,
+        "due_date": null,
+        "paid_date": "2026-06-03",
+        "billing_period": {
+          "start": "2026-06-03",
+          "end": "2026-07-03"
+        }
+      },
+      "supplier": {
+        "legal_name": "OpenAI Ireland Limited",
+        "address": "1st Floor, The Liffey Trust Center, 117-126 Sheriff Street Upper, Dublin, D01 YC43, Ireland",
+        "country": "IE",
+        "vat_numbers": [
+          "IE4143435AH"
+        ]
+      },
+      "customer": {
+        "legal_name": "Stijn Bruggeman",
+        "address": "Bredestraat 49, 3290 Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1034271309"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 116.41,
+        "tax_total": 0.0,
+        "total_including_tax": 116.41,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": true,
+        "tax_lines": [
+          {
+            "rate": 0.0,
+            "base": 116.41,
+            "tax_amount": 0.0,
+            "description": "0% reverse charge"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "ChatGPT Pro Subscription (per seat)",
+          "quantity": 1,
+          "unit_price": 189.26,
+          "amount": 189.26,
+          "currency": "EUR",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-06-03",
+            "end": "2026-07-03"
+          }
+        },
+        {
+          "description": "Unused time on ChatGPT Pro Subscription after 03 Jun 2026",
+          "quantity": 1,
+          "unit_price": null,
+          "amount": -72.85,
+          "currency": "EUR",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-06-03",
+            "end": "2026-06-30"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "ChatGPT Pro Subscription (per seat)",
+          "quantity": 1,
+          "unit_price": 189.26,
+          "subtotal": 189.26,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EU S"
+        },
+        {
+          "description": "Unused time on ChatGPT Pro Subscription after 03 Jun 2026",
+          "quantity": 1,
+          "unit_price": null,
+          "subtotal": -72.85,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EU S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "receipt",
+        "document_number": "8C5AICMX0005",
+        "receipt_number": "219692014000",
+        "issue_date": null,
+        "due_date": null,
+        "paid_date": "2026-06-13",
+        "billing_period": {
+          "start": "2026-06-13",
+          "end": "2026-07-13"
+        }
+      },
+      "supplier": {
+        "legal_name": "Eleven Labs Inc.",
+        "address": "169 Madison Ave #2484, New York, New York 10016, United States",
+        "country": "US",
+        "vat_numbers": [
+          "EU372062016",
+          "GB457922166",
+          "CHE180.708.141 IVA",
+          "NO833914332MVA",
+          "ZA4300323179"
+        ]
+      },
+      "customer": {
+        "legal_name": "Talio",
+        "address": null,
+        "country": "BE",
+        "vat_numbers": [
+          "BE1034271309"
+        ]
+      },
+      "amounts": {
+        "currency": "USD",
+        "subtotal_excluding_tax": 6.0,
+        "tax_total": 0.0,
+        "total_including_tax": 6.0,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": true,
+        "tax_lines": [
+          {
+            "rate": 0.0,
+            "base": 6.0,
+            "tax_amount": 0.0,
+            "description": "0% reverse charge"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Starter (per subscription)",
+          "quantity": 1,
+          "unit_price": 6.0,
+          "amount": 6.0,
+          "currency": "USD",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-06-13",
+            "end": "2026-07-13"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Starter (per subscription)",
+          "quantity": 1,
+          "unit_price": 6.0,
+          "subtotal": 6.0,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EX S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "travel_ticket_receipt",
+        "document_number": "J59RE1HT",
+        "receipt_number": null,
+        "issue_date": null,
+        "due_date": null,
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": null,
+        "address": null,
+        "country": "BE",
+        "vat_numbers": []
+      },
+      "customer": {
+        "legal_name": "Jarne Verstraete",
+        "address": null,
+        "country": "BE",
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": null,
+        "tax_total": null,
+        "total_including_tax": 4.6,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": []
+      },
+      "line_items": [
+        {
+          "description": "Ticket Daluren Jongere Train+",
+          "quantity": 1,
+          "unit_price": 4.6,
+          "amount": 4.6,
+          "currency": "EUR",
+          "tax_rate": null,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Ticket Daluren Jongere Train+",
+          "quantity": 1,
+          "unit_price": 4.6,
+          "subtotal": 4.6,
+          "account_code": "616700",
+          "account_name": "Travel and accommodation expenses",
+          "vat_rate": null,
+          "vat_code": "6% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "GROQ-TAAS-202606-332983",
+        "receipt_number": null,
+        "issue_date": "2026-06-06",
+        "due_date": "2026-06-06",
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-05-01",
+          "end": "2026-05-31"
+        }
+      },
+      "supplier": {
+        "legal_name": "Groq, Inc.",
+        "address": "P.O. Box 1778, 94042 Mountain View, CA, United States",
+        "country": "US",
+        "vat_numbers": []
+      },
+      "customer": {
+        "legal_name": "Auros - Jarne Verstraete",
+        "address": "Bredestraat 49, 3290 Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "USD",
+        "subtotal_excluding_tax": 0.35,
+        "tax_total": 0.0,
+        "total_including_tax": 0.35,
+        "amount_due": 0.35
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 0.0,
+            "base": 0.35,
+            "tax_amount": 0.0,
+            "description": "No tax"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "developer_early_access_monthly - openai/gpt-oss-120b input tokens",
+          "quantity": 682700,
+          "unit_price": 1.5e-07,
+          "amount": 0.1,
+          "currency": "USD",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-05-01",
+            "end": "2026-05-31"
+          }
+        },
+        {
+          "description": "developer_early_access_monthly - openai/gpt-oss-120b cached input tokens",
+          "quantity": 167936,
+          "unit_price": 7.5e-08,
+          "amount": 0.01,
+          "currency": "USD",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-05-01",
+            "end": "2026-05-31"
+          }
+        },
+        {
+          "description": "developer_early_access_monthly - openai/gpt-oss-120b output tokens",
+          "quantity": 392042,
+          "unit_price": 6e-07,
+          "amount": 0.24,
+          "currency": "USD",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-05-01",
+            "end": "2026-05-31"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "developer_early_access_monthly - openai/gpt-oss-120b input tokens",
+          "quantity": 682700,
+          "unit_price": 1.5e-07,
+          "subtotal": 0.1,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EX S"
+        },
+        {
+          "description": "developer_early_access_monthly - openai/gpt-oss-120b cached input tokens",
+          "quantity": 167936,
+          "unit_price": 7.5e-08,
+          "subtotal": 0.01,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EX S"
+        },
+        {
+          "description": "developer_early_access_monthly - openai/gpt-oss-120b output tokens",
+          "quantity": 392042,
+          "unit_price": 6e-07,
+          "subtotal": 0.24,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EX S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "receipt",
+        "document_number": null,
+        "receipt_number": null,
+        "issue_date": null,
+        "due_date": null,
+        "paid_date": "2026-05-17",
+        "billing_period": {
+          "start": "2026-05-01",
+          "end": "2026-05-31"
+        }
+      },
+      "supplier": {
+        "legal_name": "Twilio Ireland Limited",
+        "address": "70 Sir John Rogerson's Quay, Dublin 2, D02 R296, Ireland",
+        "country": "IE",
+        "vat_numbers": [
+          "IE3335493BH"
+        ]
+      },
+      "customer": {
+        "legal_name": "Talio",
+        "address": "Bredestraat 49, 3290 Diest, Belgium",
+        "country": "BE",
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "USD",
+        "subtotal_excluding_tax": null,
+        "tax_total": null,
+        "total_including_tax": 10.97,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": []
+      },
+      "line_items": [
+        {
+          "description": "API Services",
+          "quantity": null,
+          "unit_price": null,
+          "amount": 10.97,
+          "currency": "USD",
+          "tax_rate": null,
+          "period": {
+            "start": "2026-05-01",
+            "end": "2026-05-31"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "API Services",
+          "quantity": null,
+          "unit_price": null,
+          "subtotal": 10.97,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": null,
+          "vat_code": "21% EU S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "20260412801542",
+        "receipt_number": null,
+        "issue_date": "2026-04-29",
+        "due_date": null,
+        "paid_date": "2026-04-29",
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Krëfel",
+        "address": "Steenstraat 44, 1851 Humbeek, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0400673544"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart",
+        "address": "Den Haan 6, 2980 Zoersel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 247.11,
+        "tax_total": 51.89,
+        "total_including_tax": 299.0,
+        "amount_due": 0.0
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 247.11,
+            "tax_amount": 51.89,
+            "description": "Standard VAT rate"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "SMARTWATCHES APPLE SE3 44 MN ML 1 C62",
+          "quantity": 1,
+          "unit_price": 247.107438,
+          "amount": 247.11,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-29",
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "SMARTWATCHES APPLE SE3 44 MN ML 1 C62",
+          "quantity": 1,
+          "unit_price": 247.107438,
+          "subtotal": 247.11,
+          "account_code": "611200",
+          "account_name": "Small equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "VF+02-26064017",
+        "receipt_number": null,
+        "issue_date": "2026-04-30",
+        "due_date": "2026-04-30",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Afval Alternatief NV",
+        "address": "Zandbergen 2, I.Z. Stenehei, 2480 Dessel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0849424248"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart",
+        "address": "Begonialaan 83, 2390 Malle, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 40.9,
+        "tax_total": 8.42,
+        "total_including_tax": 49.32,
+        "amount_due": 49.32
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 40.1,
+            "tax_amount": 8.42,
+            "description": "VAT detail line on invoice"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Overweight residual waste",
+          "quantity": 40,
+          "unit_price": 0.23,
+          "amount": 9.24,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-28",
+            "end": null
+          }
+        },
+        {
+          "description": "Emptying residual waste roll container 770 l",
+          "quantity": 1,
+          "unit_price": 25.66,
+          "amount": 25.66,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-28",
+            "end": null
+          }
+        },
+        {
+          "description": "Rental roll container 770 l residual waste",
+          "quantity": 1,
+          "unit_price": 6.0,
+          "amount": 6.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-30",
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "direct_debit",
+        "payment_reference": null,
+        "iban": "BE60 7310 2819 7770",
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Overweight residual waste",
+          "quantity": 40,
+          "unit_price": 0.23,
+          "subtotal": 9.24,
+          "account_code": "610101",
+          "account_name": "Business address costs",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Emptying residual waste roll container 770 l",
+          "quantity": 1,
+          "unit_price": 25.66,
+          "subtotal": 25.66,
+          "account_code": "610101",
+          "account_name": "Business address costs",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Rental roll container 770 l residual waste",
+          "quantity": 1,
+          "unit_price": 6.0,
+          "subtotal": 6.0,
+          "account_code": "610101",
+          "account_name": "Business address costs",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "202423039",
+        "receipt_number": null,
+        "issue_date": "2026-04-30",
+        "due_date": "2026-05-08",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Mijnboekhouder bv",
+        "address": "Geldenaaksevest 2, 3000 Leuven, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0676890645"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart",
+        "address": "Den Haan 6, 2980 Zoersel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 325.0,
+        "tax_total": 68.25,
+        "total_including_tax": 393.25,
+        "amount_due": 393.25
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 325.0,
+            "tax_amount": 68.25,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Monthly accounting fixed fee for the past month, including processing of ordinary bookkeeping documents and administrative support",
+          "quantity": 1.0,
+          "unit_price": 325.0,
+          "amount": 325.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE51 3630 6128 6862",
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Monthly accounting fixed fee for the past month, including processing of ordinary bookkeeping documents and administrative support",
+          "quantity": 1.0,
+          "unit_price": 325.0,
+          "subtotal": 325.0,
+          "account_code": "615200",
+          "account_name": "Fees of bookkeepers and accountants",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "263800897931",
+        "receipt_number": null,
+        "issue_date": "2026-04-18",
+        "due_date": "2026-04-30",
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-04-18",
+          "end": "2026-05-17"
+        }
+      },
+      "supplier": {
+        "legal_name": "Telenet BV",
+        "address": "Liersesteenweg 4, 2800 Mechelen, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0473416418"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart BV",
+        "address": "Den Haan 6, 2980 Zoersel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 174.27,
+        "tax_total": 36.6,
+        "total_including_tax": 210.87,
+        "amount_due": 210.87
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 174.27,
+            "tax_amount": 36.6,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Bundle KLIK (5 SIMs & unlimited mobile data), including 24-month discount and usage",
+          "quantity": null,
+          "unit_price": null,
+          "amount": 161.2727,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-18",
+            "end": "2026-05-17"
+          }
+        },
+        {
+          "description": "Telephony - Voice Pro Classic",
+          "quantity": null,
+          "unit_price": null,
+          "amount": 13.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-18",
+            "end": "2026-05-17"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "direct_debit",
+        "payment_reference": "Mandate reference 001910138",
+        "iban": "BE11 4050 5046 1148",
+        "structured_communication": "+++313/0650/94295+++"
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Bundle KLIK (5 SIMs & unlimited mobile data), including 24-month discount and usage",
+          "quantity": null,
+          "unit_price": null,
+          "subtotal": 161.2727,
+          "account_code": "616200",
+          "account_name": "Telephone and internet expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Telephony - Voice Pro Classic",
+          "quantity": null,
+          "unit_price": null,
+          "subtotal": 13.0,
+          "account_code": "616200",
+          "account_name": "Telephone and internet expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "260405436",
+        "receipt_number": null,
+        "issue_date": "2026-04-08",
+        "due_date": "2026-05-08",
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-04-08",
+          "end": "2027-04-08"
+        }
+      },
+      "supplier": {
+        "legal_name": "Combell nv",
+        "address": "Skaldenstraat 121, 9042 Gent, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0541977701"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart",
+        "address": "Den Haan 6, 2980 Zoersel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE in aanvraag"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 38.16,
+        "tax_total": 8.01,
+        "total_including_tax": 46.17,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 38.16,
+            "tax_amount": 8.01,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Office Solutions - Microsoft 365 Backup with one-time discount for deblijestaart.onmicrosoft.com",
+          "quantity": 2,
+          "unit_price": 21.48,
+          "amount": 38.16,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-08",
+            "end": "2027-04-08"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "paid",
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Office Solutions - Microsoft 365 Backup with one-time discount for deblijestaart.onmicrosoft.com",
+          "quantity": 2,
+          "unit_price": 21.48,
+          "subtotal": 38.16,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "receipt",
+        "document_number": "45L64969PU294984V",
+        "receipt_number": "45L64969PU294984V",
+        "issue_date": "2026-04-06",
+        "due_date": null,
+        "paid_date": "2026-04-06",
+        "billing_period": {
+          "start": "2026-04-06",
+          "end": "2026-05-05"
+        }
+      },
+      "supplier": {
+        "legal_name": "GitHub, Inc.",
+        "address": "88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States",
+        "country": "US",
+        "vat_numbers": []
+      },
+      "customer": {
+        "legal_name": "BartCalders",
+        "address": null,
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "USD",
+        "subtotal_excluding_tax": 10.0,
+        "tax_total": 0.0,
+        "total_including_tax": 10.0,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 0.0,
+            "base": 10.0,
+            "tax_amount": 0.0,
+            "description": "Tax"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "GitHub Copilot Pro - month",
+          "quantity": 1,
+          "unit_price": 10.0,
+          "amount": 10.0,
+          "currency": "USD",
+          "tax_rate": 0.0,
+          "period": {
+            "start": "2026-04-06",
+            "end": "2026-05-05"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "PayPal account administratie@deblijestaart.be",
+        "payment_reference": "Transaction ID 45L64969PU294984V",
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "GitHub Copilot Pro - month",
+          "quantity": 1,
+          "unit_price": 10.0,
+          "subtotal": 10.0,
+          "account_code": "612100",
+          "account_name": "IT services",
+          "vat_rate": 0.0,
+          "vat_code": "21% EX S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "2026.041880",
+        "receipt_number": null,
+        "issue_date": "2026-04-16",
+        "due_date": "2026-05-01",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "ACTIEF INTERIM nv",
+        "address": "Bosstraat 67 bus 2, 3560 Lummen, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0433344035"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart BV",
+        "address": "Den Haan 6, 2980 Zoersel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 713.88,
+        "tax_total": 149.91,
+        "total_including_tax": 863.79,
+        "amount_due": 863.79
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 713.88,
+            "tax_amount": 149.91,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Wages and salaries - Callaert Eysackers Yolanda, week 15",
+          "quantity": 30.0,
+          "unit_price": 18.06,
+          "amount": 541.8,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-07",
+            "end": "2026-04-11"
+          }
+        },
+        {
+          "description": "Travel costs - public transport",
+          "quantity": 4.0,
+          "unit_price": 20.07,
+          "amount": 80.28,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-07",
+            "end": "2026-04-11"
+          }
+        },
+        {
+          "description": "Administration costs / start-up cost",
+          "quantity": 1.0,
+          "unit_price": 75.0,
+          "amount": 75.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Dimona costs",
+          "quantity": 30.0,
+          "unit_price": 0.56,
+          "amount": 16.8,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-04-07",
+            "end": "2026-04-11"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE47 2350 4344 3480",
+        "structured_communication": "+++260/0041/88045+++"
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Wages and salaries - Callaert Eysackers Yolanda, week 15",
+          "quantity": 30.0,
+          "unit_price": 18.06,
+          "subtotal": 541.8,
+          "account_code": "617000",
+          "account_name": "Temporary agency workers",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Travel costs - public transport",
+          "quantity": 4.0,
+          "unit_price": 20.07,
+          "subtotal": 80.28,
+          "account_code": "617000",
+          "account_name": "Temporary agency workers",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Administration costs / start-up cost",
+          "quantity": 1.0,
+          "unit_price": 75.0,
+          "subtotal": 75.0,
+          "account_code": "617000",
+          "account_name": "Temporary agency workers",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Dimona costs",
+          "quantity": 30.0,
+          "unit_price": 0.56,
+          "subtotal": 16.8,
+          "account_code": "617000",
+          "account_name": "Temporary agency workers",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "R260291142716-096452",
+        "receipt_number": null,
+        "issue_date": "2026-04-07",
+        "due_date": null,
+        "paid_date": "2026-04-07",
+        "billing_period": {
+          "start": "2026-03-01",
+          "end": "2026-03-31"
+        }
+      },
+      "supplier": {
+        "legal_name": "Beobank NV/SA",
+        "address": "Koning Albert II-laan 2, 1000 Brussel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0401517147"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart",
+        "address": "Begonialaan 83, 2390 Oostmalle, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 6.01,
+        "tax_total": 1.27,
+        "total_including_tax": 7.28,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 6.01,
+            "tax_amount": 1.27,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Monthly debit card costs",
+          "quantity": 1,
+          "unit_price": 1.24,
+          "amount": 1.24,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-03-01",
+            "end": null
+          }
+        },
+        {
+          "description": "Monthly forfait",
+          "quantity": 1,
+          "unit_price": 4.13,
+          "amount": 4.13,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-03-04",
+            "end": null
+          }
+        },
+        {
+          "description": "Maestro payment fee - PAYPAL *GITHUB INC",
+          "quantity": 1,
+          "unit_price": 0.64,
+          "amount": 0.64,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-03-09",
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "already_paid",
+        "payment_reference": "Rekening van inning 950-2757350-60",
+        "iban": "BE77 9545 4622 6142",
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Monthly debit card costs",
+          "quantity": 1,
+          "unit_price": 1.24,
+          "subtotal": 1.24,
+          "account_code": "657100",
+          "account_name": "Bank charges",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Monthly forfait",
+          "quantity": 1,
+          "unit_price": 4.13,
+          "subtotal": 4.13,
+          "account_code": "657100",
+          "account_name": "Bank charges",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Maestro payment fee - PAYPAL *GITHUB INC",
+          "quantity": 1,
+          "unit_price": 0.64,
+          "subtotal": 0.64,
+          "account_code": "657100",
+          "account_name": "Bank charges",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "F/26/008701",
+        "receipt_number": null,
+        "issue_date": "2026-04-10",
+        "due_date": "2026-04-10",
+        "paid_date": "2026-04-10",
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Slotenonline BV",
+        "address": "Nijverheidspark 5/1, 3580 Beringen, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0830757488"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart BV",
+        "address": "Den Haan 6, 2980 Zoersel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 106.78,
+        "tax_total": 22.42,
+        "total_including_tax": 129.2,
+        "amount_due": 0.0
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 106.78,
+            "tax_amount": 22.42,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Sobinco 30000-655 window handle - Chrono system",
+          "quantity": 2.0,
+          "unit_price": 54.95,
+          "amount": 90.83,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Sobinco 30000-690 fixing screw for Chrono window handles",
+          "quantity": 4.0,
+          "unit_price": 2.95,
+          "amount": 9.75,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Shipping costs",
+          "quantity": 1.0,
+          "unit_price": 7.5,
+          "amount": 6.2,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE72 3350 1637 0616",
+        "structured_communication": "+++000/0051/33724+++"
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Sobinco 30000-655 window handle - Chrono system",
+          "quantity": 2.0,
+          "unit_price": 54.95,
+          "subtotal": 90.83,
+          "account_code": "610700",
+          "account_name": "Maintenance and repairs of installations, machinery and equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Sobinco 30000-690 fixing screw for Chrono window handles",
+          "quantity": 4.0,
+          "unit_price": 2.95,
+          "subtotal": 9.75,
+          "account_code": "610700",
+          "account_name": "Maintenance and repairs of installations, machinery and equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Shipping costs",
+          "quantity": 1.0,
+          "unit_price": 7.5,
+          "subtotal": 6.2,
+          "account_code": "607000",
+          "account_name": "Ancillary purchase costs",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "supplier_invoice",
+        "document_number": "00859001996260001261",
+        "receipt_number": null,
+        "issue_date": "2026-04-19",
+        "due_date": null,
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Combiform",
+        "address": "Paalstraat 149, 2900 Schoten, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0866680548"
+        ]
+      },
+      "customer": {
+        "legal_name": "De Blije Staart",
+        "address": "Den Haan 6, 2980 Zoersel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1017959867"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 50.64,
+        "tax_total": 10.64,
+        "total_including_tax": 61.28,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 50.64,
+            "tax_amount": 10.64,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "HAN KABEL XVB 3X2,5MM2 10M",
+          "quantity": 1.0,
+          "unit_price": 35.94215,
+          "amount": 35.94,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "OK STOPCONTACT 2P+A + 1V AFDEK CREAM 4ST",
+          "quantity": 1.0,
+          "unit_price": 14.70248,
+          "amount": 14.7,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": "Source 26041909530019965607",
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "HAN KABEL XVB 3X2,5MM2 10M",
+          "quantity": 1.0,
+          "unit_price": 35.94215,
+          "subtotal": 35.94,
+          "account_code": "611220",
+          "account_name": "Sector-specific materials",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "OK STOPCONTACT 2P+A + 1V AFDEK CREAM 4ST",
+          "quantity": 1.0,
+          "unit_price": 14.70248,
+          "subtotal": 14.7,
+          "account_code": "611220",
+          "account_name": "Sector-specific materials",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "441821507",
+        "receipt_number": null,
+        "issue_date": "2026-06-04",
+        "due_date": null,
+        "paid_date": "2026-06-03",
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Coolblue België N.V.",
+        "address": "Borsbeeksebrug 28, 2600 Berchem, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0867686774"
+        ]
+      },
+      "customer": {
+        "legal_name": "Beetech",
+        "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1013851522"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 228.91,
+        "tax_total": 48.08,
+        "total_including_tax": 276.99,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 228.91,
+            "tax_amount": 48.08,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Apple USB-C Charger 20W",
+          "quantity": 1,
+          "unit_price": 23.13,
+          "amount": 23.13,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "HP 207X Toner Cartridge Cyan High Capacity",
+          "quantity": 1,
+          "unit_price": 106.61,
+          "amount": 106.61,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "HP 207X Toner Cartridge Black High Capacity",
+          "quantity": 1,
+          "unit_price": 99.17,
+          "amount": 99.17,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "Bancontact",
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Apple USB-C Charger 20W",
+          "quantity": 1,
+          "unit_price": 23.13,
+          "subtotal": 23.13,
+          "account_code": "611200",
+          "account_name": "Small equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "HP 207X Toner Cartridge Cyan High Capacity",
+          "quantity": 1,
+          "unit_price": 106.61,
+          "subtotal": 106.61,
+          "account_code": "611000",
+          "account_name": "Office supplies and printing",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "HP 207X Toner Cartridge Black High Capacity",
+          "quantity": 1,
+          "unit_price": 99.17,
+          "subtotal": 99.17,
+          "account_code": "611000",
+          "account_name": "Office supplies and printing",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "7604089439",
+        "receipt_number": null,
+        "issue_date": "2026-06-09",
+        "due_date": "2026-06-26",
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-06-01",
+          "end": "2026-06-30"
+        }
+      },
+      "supplier": {
+        "legal_name": "Proximus NV van publiek recht",
+        "address": "Koning Albert II-laan 27, 1030 Brussel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0202239951"
+        ]
+      },
+      "customer": {
+        "legal_name": "CommV BEETECH",
+        "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1013851522"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 135.93,
+        "tax_total": 28.55,
+        "total_including_tax": 164.48,
+        "amount_due": 164.48
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 135.93,
+            "tax_amount": 28.55,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Business Flex Essential pack at Bergstraat 147",
+          "quantity": 1,
+          "unit_price": 67.0,
+          "amount": 67.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-06-01",
+            "end": "2026-06-30"
+          }
+        },
+        {
+          "description": "Business Mobile Flex S mobile subscription 0474828317 after pack discount",
+          "quantity": 1,
+          "unit_price": 11.0,
+          "amount": 11.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-06-01",
+            "end": "2026-06-30"
+          }
+        },
+        {
+          "description": "Business Mobile Essential 0471277151 including mobile data usage",
+          "quantity": 1,
+          "unit_price": 39.93,
+          "amount": 39.93,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-06-01",
+            "end": "2026-06-30"
+          }
+        },
+        {
+          "description": "Business Mobile Essential 0475236555 after special discount",
+          "quantity": 1,
+          "unit_price": 9.0,
+          "amount": 9.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-06-01",
+            "end": "2026-06-30"
+          }
+        },
+        {
+          "description": "Business Mobile Essential 0478271755 after special discount",
+          "quantity": 1,
+          "unit_price": 9.0,
+          "amount": 9.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-06-01",
+            "end": "2026-06-30"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "direct_debit",
+        "payment_reference": null,
+        "iban": "BE82 2100 0008 8968",
+        "structured_communication": "+++760/4089/43961+++"
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Business Flex Essential pack at Bergstraat 147",
+          "quantity": 1,
+          "unit_price": 67.0,
+          "subtotal": 67.0,
+          "account_code": "616200",
+          "account_name": "Telephone and internet expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Business Mobile Flex S mobile subscription 0474828317 after pack discount",
+          "quantity": 1,
+          "unit_price": 11.0,
+          "subtotal": 11.0,
+          "account_code": "616200",
+          "account_name": "Telephone and internet expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Business Mobile Essential 0471277151 including mobile data usage",
+          "quantity": 1,
+          "unit_price": 39.93,
+          "subtotal": 39.93,
+          "account_code": "616200",
+          "account_name": "Telephone and internet expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Business Mobile Essential 0475236555 after special discount",
+          "quantity": 1,
+          "unit_price": 9.0,
+          "subtotal": 9.0,
+          "account_code": "616200",
+          "account_name": "Telephone and internet expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Business Mobile Essential 0478271755 after special discount",
+          "quantity": 1,
+          "unit_price": 9.0,
+          "subtotal": 9.0,
+          "account_code": "616200",
+          "account_name": "Telephone and internet expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "receipt",
+        "document_number": "38102",
+        "receipt_number": "38102",
+        "issue_date": "2026-06-11",
+        "due_date": null,
+        "paid_date": "2026-06-11",
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "BVBA LIRE",
+        "address": "Auwegemstraat 36, 2800 Mechelen, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0453726804"
+        ]
+      },
+      "customer": {
+        "legal_name": null,
+        "address": null,
+        "country": null,
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 92.09,
+        "tax_total": 12.91,
+        "total_including_tax": 105.0,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 12.0,
+            "base": 71.43,
+            "tax_amount": 8.57,
+            "description": "VAT category B"
+          },
+          {
+            "rate": 21.0,
+            "base": 20.66,
+            "tax_amount": 4.34,
+            "description": "VAT category A"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "B Mista",
+          "quantity": 1,
+          "unit_price": 13.0,
+          "amount": 13.0,
+          "currency": "EUR",
+          "tax_rate": 12.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Gambas alla griglia",
+          "quantity": 1,
+          "unit_price": 35.0,
+          "amount": 35.0,
+          "currency": "EUR",
+          "tax_rate": 12.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Seppia patate",
+          "quantity": 1,
+          "unit_price": 32.0,
+          "amount": 32.0,
+          "currency": "EUR",
+          "tax_rate": 12.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Carolus Triple",
+          "quantity": 1,
+          "unit_price": 5.0,
+          "amount": 5.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Negroni (Bitter)",
+          "quantity": 1,
+          "unit_price": 10.0,
+          "amount": 10.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Spa 0.5 lt",
+          "quantity": 2,
+          "unit_price": 5.0,
+          "amount": 10.0,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "Bancontact",
+        "payment_reference": null,
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "B Mista",
+          "quantity": 1,
+          "unit_price": 13.0,
+          "subtotal": 13.0,
+          "account_code": "616680",
+          "account_name": "Restaurant expenses",
+          "vat_rate": 12.0,
+          "vat_code": "12% S"
+        },
+        {
+          "description": "Gambas alla griglia",
+          "quantity": 1,
+          "unit_price": 35.0,
+          "subtotal": 35.0,
+          "account_code": "616680",
+          "account_name": "Restaurant expenses",
+          "vat_rate": 12.0,
+          "vat_code": "12% S"
+        },
+        {
+          "description": "Seppia patate",
+          "quantity": 1,
+          "unit_price": 32.0,
+          "subtotal": 32.0,
+          "account_code": "616680",
+          "account_name": "Restaurant expenses",
+          "vat_rate": 12.0,
+          "vat_code": "12% S"
+        },
+        {
+          "description": "Carolus Triple",
+          "quantity": 1,
+          "unit_price": 5.0,
+          "subtotal": 5.0,
+          "account_code": "616680",
+          "account_name": "Restaurant expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Negroni (Bitter)",
+          "quantity": 1,
+          "unit_price": 10.0,
+          "subtotal": 10.0,
+          "account_code": "616680",
+          "account_name": "Restaurant expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        },
+        {
+          "description": "Spa 0.5 lt",
+          "quantity": 2,
+          "unit_price": 5.0,
+          "subtotal": 10.0,
+          "account_code": "616680",
+          "account_name": "Restaurant expenses",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "receipt",
+        "document_number": "1794510129",
+        "receipt_number": "1794510129",
+        "issue_date": "2026-06-12",
+        "due_date": null,
+        "paid_date": "2026-06-12",
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Lukoil",
+        "address": "Alsembergsesteenweg 19, 1501 Buizingen, Belgium",
+        "country": "BE",
+        "vat_numbers": []
+      },
+      "customer": {
+        "legal_name": null,
+        "address": null,
+        "country": null,
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 19.45,
+        "tax_total": 4.09,
+        "total_including_tax": 23.54,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 19.45,
+            "tax_amount": 4.09,
+            "description": "TVA 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "AdBlue",
+          "quantity": 18.12,
+          "unit_price": 1.299,
+          "amount": 23.54,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "Bancontact",
+        "payment_reference": "Card ending 8931 / STAN 559262 / auth CD6477",
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "AdBlue",
+          "quantity": 18.12,
+          "unit_price": 1.299,
+          "subtotal": 23.54,
+          "account_code": "612600",
+          "account_name": "Fuel for company cars",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "receipt",
+        "document_number": "1194110813",
+        "receipt_number": "1194110813",
+        "issue_date": "2026-06-12",
+        "due_date": null,
+        "paid_date": "2026-06-12",
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Servauto Belg-Lux S.A.",
+        "address": "Autosnelweg E19 Brussel-Parijs, B-1601 Ruisbroek, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0423097766"
+        ]
+      },
+      "customer": {
+        "legal_name": null,
+        "address": null,
+        "country": null,
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 7.12,
+        "tax_total": 0.43,
+        "total_including_tax": 7.55,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 6.0,
+            "base": 7.12,
+            "tax_amount": 0.43,
+            "description": "VAT type 1"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Suzy Gauf. liég. Cho",
+          "quantity": 1,
+          "unit_price": 7.55,
+          "amount": 7.55,
+          "currency": "EUR",
+          "tax_rate": 6.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "Bancontact",
+        "payment_reference": "Card ending 8931 / STAN 770364 / auth C2DAF8",
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Suzy Gauf. liég. Cho",
+          "quantity": 1,
+          "unit_price": 7.55,
+          "subtotal": 7.55,
+          "account_code": "616680",
+          "account_name": "Restaurant expenses",
+          "vat_rate": 6.0,
+          "vat_code": "6% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "91759036",
+        "receipt_number": null,
+        "issue_date": "2026-06-04",
+        "due_date": null,
+        "paid_date": "2026-06-04",
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Proximus NV van publiek recht",
+        "address": "Koning Albert II-laan 27, 1030 Brussel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0202239951"
+        ]
+      },
+      "customer": {
+        "legal_name": "Danny Konings",
+        "address": "Bergstraat 147, 1910 Berg (Kampenhout), Belgium",
+        "country": "BE",
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 107.43,
+        "tax_total": 22.56,
+        "total_including_tax": 129.99,
+        "amount_due": null
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 107.43,
+            "tax_amount": 22.56,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Apple TV 4K WiFi + Ethernet 128GB Black",
+          "quantity": 1,
+          "unit_price": 102.88,
+          "amount": 102.88,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Recupel contribution",
+          "quantity": 1,
+          "unit_price": 0.2479,
+          "amount": 0.25,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Environmental contribution",
+          "quantity": 1,
+          "unit_price": 0.08,
+          "amount": 0.08,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Auvibel",
+          "quantity": 1,
+          "unit_price": 4.3,
+          "amount": 4.3,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "already paid online",
+        "payment_reference": "R4WEBSHOP048338177",
+        "iban": null,
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Apple TV 4K WiFi + Ethernet 128GB Black",
+          "quantity": 1,
+          "unit_price": 102.88,
+          "subtotal": 102.88,
+          "account_code": "611200",
+          "account_name": "Small equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Recupel contribution",
+          "quantity": 1,
+          "unit_price": 0.2479,
+          "subtotal": 0.25,
+          "account_code": "611200",
+          "account_name": "Small equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Environmental contribution",
+          "quantity": 1,
+          "unit_price": 0.08,
+          "subtotal": 0.08,
+          "account_code": "611200",
+          "account_name": "Small equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Auvibel",
+          "quantity": 1,
+          "unit_price": 4.3,
+          "subtotal": 4.3,
+          "account_code": "611200",
+          "account_name": "Small equipment",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "202423150",
+        "receipt_number": null,
+        "issue_date": "2026-05-28",
+        "due_date": "2026-06-05",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Mijnboekhouder bv",
+        "address": "Geldenaaksevest 2, 3000 Leuven, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0676890645"
+        ]
+      },
+      "customer": {
+        "legal_name": "Beetech",
+        "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1013851522"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 364.77,
+        "tax_total": 76.6,
+        "total_including_tax": 441.37,
+        "amount_due": 441.37
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 364.77,
+            "tax_amount": 76.6,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Monthly accounting fixed fee for the previous month, including bookkeeping follow-up and administrative support",
+          "quantity": 1.0,
+          "unit_price": 364.77,
+          "amount": 364.77,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE51 3630 6128 6862",
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Monthly accounting fixed fee for the previous month, including bookkeeping follow-up and administrative support",
+          "quantity": 1.0,
+          "unit_price": 364.77,
+          "subtotal": 364.77,
+          "account_code": "615200",
+          "account_name": "Fees of bookkeepers and accountants",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "355124308",
+        "receipt_number": null,
+        "issue_date": "2026-05-05",
+        "due_date": "2026-06-04",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "RS Components",
+        "address": "Stephanie Square Centre, Louizalaan 65 box 11, 1050 Brussel, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0467850695"
+        ]
+      },
+      "customer": {
+        "legal_name": "Beetech",
+        "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1013851522"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 41.66,
+        "tax_total": 8.75,
+        "total_including_tax": 50.41,
+        "amount_due": 50.41
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 41.66,
+            "tax_amount": 8.75,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "RS PRO 100R8.8X1.9N70 O-Ring",
+          "quantity": 1,
+          "unit_price": 6.1,
+          "amount": 6.1,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "RS PRO 100R8.2X1.8N70 O-Ring",
+          "quantity": 1,
+          "unit_price": 7.85,
+          "amount": 7.85,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "RS PRO 50R8.5X1.5N70 O-Ring",
+          "quantity": 1,
+          "unit_price": 3.7,
+          "amount": 3.7,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Phoenix Contact 1694923",
+          "quantity": 1,
+          "unit_price": 13.24,
+          "amount": 13.24,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Transistor NPN 45V 0.1A SOT323",
+          "quantity": 50,
+          "unit_price": 0.096,
+          "amount": 4.82,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        },
+        {
+          "description": "Service / shipping",
+          "quantity": 1,
+          "unit_price": 5.95,
+          "amount": 5.95,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE65 0017 4938 5296",
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "RS PRO 100R8.8X1.9N70 O-Ring",
+          "quantity": 1,
+          "unit_price": 6.1,
+          "subtotal": 6.1,
+          "account_code": "611220",
+          "account_name": "Sector-specific materials",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "RS PRO 100R8.2X1.8N70 O-Ring",
+          "quantity": 1,
+          "unit_price": 7.85,
+          "subtotal": 7.85,
+          "account_code": "611220",
+          "account_name": "Sector-specific materials",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "RS PRO 50R8.5X1.5N70 O-Ring",
+          "quantity": 1,
+          "unit_price": 3.7,
+          "subtotal": 3.7,
+          "account_code": "611220",
+          "account_name": "Sector-specific materials",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Phoenix Contact 1694923",
+          "quantity": 1,
+          "unit_price": 13.24,
+          "subtotal": 13.24,
+          "account_code": "611220",
+          "account_name": "Sector-specific materials",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Transistor NPN 45V 0.1A SOT323",
+          "quantity": 50,
+          "unit_price": 0.096,
+          "subtotal": 4.82,
+          "account_code": "611220",
+          "account_name": "Sector-specific materials",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        },
+        {
+          "description": "Service / shipping",
+          "quantity": 1,
+          "unit_price": 5.95,
+          "subtotal": 5.95,
+          "account_code": "607000",
+          "account_name": "Ancillary purchase costs",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "tax_assessment",
+        "document_number": "G/VKAlfa/2026/7973",
+        "receipt_number": null,
+        "issue_date": "2026-06-02",
+        "due_date": "2026-08-08",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Gemeente Kampenhout",
+        "address": "Gemeentehuisstraat 32, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0207533280"
+        ]
+      },
+      "customer": {
+        "legal_name": "Beetech CommV",
+        "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": []
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 100.0,
+        "tax_total": 0.0,
+        "total_including_tax": 100.0,
+        "amount_due": 100.0
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": []
+      },
+      "line_items": [
+        {
+          "description": "Annual general municipal tax for company / liberal profession / self-employed entity, assessment year 2025",
+          "quantity": 1,
+          "unit_price": 100.0,
+          "amount": 100.0,
+          "currency": "EUR",
+          "tax_rate": null,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE34 0971 2281 1090",
+        "structured_communication": "+++888/2605/18532+++"
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Annual general municipal tax for company / liberal profession / self-employed entity, assessment year 2025",
+          "quantity": 1,
+          "unit_price": 100.0,
+          "subtotal": 100.0,
+          "account_code": "640000",
+          "account_name": "Business taxes",
+          "vat_rate": null,
+          "vat_code": ""
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "45699",
+        "receipt_number": null,
+        "issue_date": "2026-06-02",
+        "due_date": "2026-06-16",
+        "paid_date": null,
+        "billing_period": {
+          "start": null,
+          "end": null
+        }
+      },
+      "supplier": {
+        "legal_name": "Cycle-Passion BV",
+        "address": "Kalkoven 6, 1820 Melsbroek, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0810709469"
+        ]
+      },
+      "customer": {
+        "legal_name": "Beetech",
+        "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1013851522"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 206.61,
+        "tax_total": 43.39,
+        "total_including_tax": 250.0,
+        "amount_due": 250.0
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 206.61,
+            "tax_amount": 43.39,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Insurance excess / franchise cost for accident Stromer ST2",
+          "quantity": 1,
+          "unit_price": 206.61,
+          "amount": 206.61,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": null,
+            "end": null
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": null,
+        "payment_reference": null,
+        "iban": "BE26 3300 6666 5629",
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Insurance excess / franchise cost for accident Stromer ST2",
+          "quantity": 1,
+          "unit_price": 206.61,
+          "subtotal": 206.61,
+          "account_code": "613200",
+          "account_name": "Business risk insurance",
+          "vat_rate": 21.0,
+          "vat_code": "21% S"
+        }
+      ]
+    },
+    {
+      "document": {
+        "document_type": "invoice",
+        "document_number": "BE261701442255",
+        "receipt_number": null,
+        "issue_date": "2026-06-18",
+        "due_date": "2026-06-22",
+        "paid_date": null,
+        "billing_period": {
+          "start": "2026-06-07",
+          "end": "2026-06-14"
+        }
+      },
+      "supplier": {
+        "legal_name": "Radius Business Solutions (Belgium) NV",
+        "address": "TIO3 Oscar Delghuststraat 60, 9600 Ronse, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE0865944140"
+        ]
+      },
+      "customer": {
+        "legal_name": "Beetech Commv",
+        "address": "Bergstraat 147, 1910 Kampenhout, Belgium",
+        "country": "BE",
+        "vat_numbers": [
+          "BE1013851522"
+        ]
+      },
+      "amounts": {
+        "currency": "EUR",
+        "subtotal_excluding_tax": 80.53,
+        "tax_total": 16.92,
+        "total_including_tax": 97.45,
+        "amount_due": 97.45
+      },
+      "tax": {
+        "reverse_charge": false,
+        "tax_lines": [
+          {
+            "rate": 21.0,
+            "base": 80.53,
+            "tax_amount": 16.92,
+            "description": "Belgian VAT 21%"
+          }
+        ]
+      },
+      "line_items": [
+        {
+          "description": "Diesel - B7",
+          "quantity": 47.195,
+          "unit_price": 1.70650562,
+          "amount": 80.53,
+          "currency": "EUR",
+          "tax_rate": 21.0,
+          "period": {
+            "start": "2026-06-07",
+            "end": "2026-06-14"
+          }
+        }
+      ],
+      "payment": {
+        "payment_method": "SEPA direct debit",
+        "payment_reference": "261701442255 / domiciliring RF143930",
+        "iban": "BE26 3900 1034 7329",
+        "structured_communication": null
+      },
+      "testable": true,
+      "invoice_lines": [
+        {
+          "description": "Diesel - B7",
+          "quantity": 47.195,
+          "unit_price": 1.70650562,
+          "subtotal": 80.53,
+          "account_code": "612600",
+          "account_name": "Fuel for company cars",
+          "vat_rate": 21.0,
+          "vat_code": "21% G"
+        }
+      ]
+    }
+  ]
+}

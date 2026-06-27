@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "F/2026/00016",
+    "receipt_number": null,
+    "issue_date": "2026-05-31",
+    "due_date": "2026-12-31",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "iumhs BV",
+    "address": "Weggevoerdenstraat 24, 3020 Herent, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1008281148"
+    ]
+  },
+  "customer": {
+    "legal_name": "Talio Technologies",
+    "address": "Diest, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1034271309"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 1041.67,
+    "tax_total": 218.75,
+    "total_including_tax": 1260.42,
+    "amount_due": 1260.42
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 1041.67,
+        "tax_amount": 218.75,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Administrative and support services up to and including July",
+      "quantity": 1.0,
+      "unit_price": 1041.665,
+      "amount": 1041.67,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "BE46 0019 7707 7036",
+    "structured_communication": "+++000/0001/18218+++"
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Administrative and support services up to and including July",
+      "quantity": 1.0,
+      "unit_price": 1041.665,
+      "subtotal": 1041.67,
+      "account_code": "612050",
+      "account_name": "Administrative services",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

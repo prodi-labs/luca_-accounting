@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "source": {
+    "file_name": "2026-06-12 18.47.12 (1).pdf",
+    "source_type": "pdf_scan",
+    "workspace_path": "/workspace/.cache/2026-06-12 18.47.12 (1).pdf",
+    "extraction_method": "manual_visual_parse_from_render"
+  },
+  "document": {
+    "document_type": "invoice",
+    "document_number": "91759036",
+    "receipt_number": null,
+    "issue_date": "2026-06-04",
+    "due_date": null,
+    "paid_date": "2026-06-04",
+    "billing_period": {
+      "start": null,
+      "end": null
+    },
+    "status": "paid",
+    "language": "fr/nl"
+  },
+  "supplier": {
+    "name": "Proximus",
+    "legal_name": "Proximus NV van publiek recht",
+    "address": "Koning Albert II-laan 27, 1030 Brussel, Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [
+      "BE0202239951"
+    ],
+    "tax_numbers": []
+  },
+  "customer": {
+    "name": "Danny Konings",
+    "legal_name": null,
+    "address": "Bergstraat 147, 1910 Berg (Kampenhout), Belgium",
+    "country": "BE",
+    "email": null,
+    "vat_numbers": [],
+    "tax_numbers": [
+      "Client 4102318099",
+      "Order 5005104070",
+      "Delivery note 49628718"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 107.43,
+    "tax_total": 22.56,
+    "total_including_tax": 129.99,
+    "amount_due": null,
+    "amount_paid": 129.99
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 107.43,
+        "tax_amount": 22.56,
+        "description": "Belgian VAT 21%"
+      }
+    ],
+    "notes": []
+  },
+  "line_items": [
+    {
+      "description": "Apple TV 4K WiFi + Ethernet 128GB Black",
+      "quantity": 1,
+      "unit_price": 102.88,
+      "amount": 102.88,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    },
+    {
+      "description": "Recupel contribution",
+      "quantity": 1,
+      "unit_price": 0.2479,
+      "amount": 0.25,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    },
+    {
+      "description": "Environmental contribution",
+      "quantity": 1,
+      "unit_price": 0.08,
+      "amount": 0.08,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    },
+    {
+      "description": "Auvibel",
+      "quantity": 1,
+      "unit_price": 4.3,
+      "amount": 4.3,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      },
+      "notes": []
+    }
+  ],
+  "payment": {
+    "payment_method": "already paid online",
+    "payment_reference": "R4WEBSHOP048338177",
+    "iban": null,
+    "structured_communication": null,
+    "payment_history": []
+  },
+  "travel": {
+    "is_travel_document": false,
+    "origin": null,
+    "destination": null,
+    "travel_date": null,
+    "travel_class": null,
+    "trip_type": null,
+    "passenger_name": null,
+    "ticket_number": null,
+    "order_number": null
+  },
+  "booking_agent_input": {
+    "suggested_transaction_type": "supplier_invoice",
+    "supplier_or_counterparty": "Proximus NV van publiek recht",
+    "description": "Apple TV 4K WiFi + Ethernet 128GB Black with Recupel/environmental/Auvibel contributions",
+    "total_amount": 129.99,
+    "currency": "EUR",
+    "vat_clues": [
+      "Belgian supplier",
+      "21% VAT"
+    ],
+    "review_reasons": [
+      "Scanned PDF; verify whether purchase is business equipment, private/mixed use, or fixed asset/small equipment."
+    ]
+  },
+  "extraction": {
+    "confidence": "medium",
+    "warnings": [
+      "PDF had no text layer; parsed manually from rendered image."
+    ],
+    "raw_text": "Proximus invoice 91759036, client 4102318099, date 04.06.2026. Danny Konings, Bergstraat 147, 1910 Berg (Kampenhout). Article 64300903 Apple TV 4K Wifi + Ethernet 128GB Black, recupel contribution, environmental contribution, Auvibel. Subtotal 107.43, VAT 21% 22.56, total 129.99. Already paid online."
+  }
+}
