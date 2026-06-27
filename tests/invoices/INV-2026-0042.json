@@ -1,0 +1,77 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "20260412801542",
+    "receipt_number": null,
+    "issue_date": "2026-04-29",
+    "due_date": null,
+    "paid_date": "2026-04-29",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Krëfel",
+    "address": "Steenstraat 44, 1851 Humbeek, Belgium",
+    "country": "BE",
+    "vat_numbers": ["BE0400673544"]
+  },
+  "customer": {
+    "legal_name": "De Blije Staart",
+    "address": "Den Haan 6, 2980 Zoersel, Belgium",
+    "country": "BE",
+    "vat_numbers": ["BE1017959867"]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 247.11,
+    "tax_total": 51.89,
+    "total_including_tax": 299.0,
+    "amount_due": 0.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 247.11,
+        "tax_amount": 51.89,
+        "description": "Standard VAT rate"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "SMARTWATCHES APPLE SE3 44 MN ML 1 C62",
+      "quantity": 1,
+      "unit_price": 247.107438,
+      "amount": 247.11,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-29",
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "SMARTWATCHES APPLE SE3 44 MN ML 1 C62",
+      "quantity": 1,
+      "unit_price": 247.107438,
+      "subtotal": 247.11,
+      "account_code": "611000",
+      "account_name": "Office supplies and printing",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    }
+  ]
+}

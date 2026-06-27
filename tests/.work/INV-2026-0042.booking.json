@@ -1,0 +1,18 @@
+{
+  "lines": [
+    {
+      "account_code": null,
+      "account_name": null,
+      "vat_code": "VAT-STD"
+    }
+  ],
+  "rule_cited": ".claude/skills/process-invoice/policies/global.md",
+  "scope": "global",
+  "confidence": "low",
+  "flags": [
+    "No vendor file exists for Krëfel",
+    "Product type (hardware/smartwatch) does not fit any default account category; account code requires accountant review"
+  ],
+  "booked_at": "2026-06-27",
+  "booked_by": "agent"
+}
