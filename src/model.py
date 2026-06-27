@@ -45,7 +45,7 @@ REPO = Path(__file__).parent.parent.resolve()
 SCRIPTS = REPO / "scripts"
 INVOICES = REPO / "tests" / "invoices"
 WORK = REPO / "tests" / ".work"        # scratch: sanitized copies + booking JSON
-MODEL = "claude-haiku-4-5-20251001"
+MODEL = "claude-opus-4-8"
 
 # Reuse the exact deterministic logic the CLI scripts (and the agent) use, so
 # the harness and the agent can never drift apart.

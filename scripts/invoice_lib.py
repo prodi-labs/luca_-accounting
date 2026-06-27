@@ -139,7 +139,12 @@ def summarize(path: str | Path) -> dict:
 
 def list_invoices(invoices_dir: str | Path) -> list[dict]:
     """Summarize every *.json invoice in a directory, sorted by name."""
-    return [summarize(p) for p in sorted(Path(invoices_dir).glob("*.json"))]
+    results = []
+    for p in sorted(Path(invoices_dir).glob("*.json")):
+        data = load_raw(p)
+        if isinstance(data, dict):
+            results.append(summarize(p))
+    return results
 
 
 def expected_lines(data: dict) -> list | None:
