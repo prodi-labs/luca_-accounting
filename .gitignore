@@ -19,3 +19,6 @@ env/
 
 # Generated docs
 docs/
+
+# Harness scratch (sanitized invoice copies + model bookings)
+tests/.work/
