@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "3915425589775",
+    "receipt_number": null,
+    "issue_date": "2026-04-12",
+    "due_date": "2026-05-12",
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "bol.com b.v.",
+    "address": "Papendorpseweg 100, 3528 BJ Utrecht, Netherlands",
+    "country": "NL",
+    "vat_numbers": [
+      "NL820471616B01"
+    ]
+  },
+  "customer": {
+    "legal_name": "Bv Iumhs",
+    "address": "Weggevoerdenstraat 24, 3020 Herent, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1008281148"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 225.0,
+    "tax_total": 0.0,
+    "total_including_tax": 225.0,
+    "amount_due": 225.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 225.0,
+        "tax_amount": 0.0,
+        "description": "Transaction outside the scope of VAT"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "bol gift card - 75 euro - Bedankt!",
+      "quantity": 3,
+      "unit_price": 75.0,
+      "amount": 225.0,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": "NL27 INGB 0000 0265 00",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "bol gift card - 75 euro - Bedankt!",
+      "quantity": 3,
+      "unit_price": 75.0,
+      "subtotal": 225.0,
+      "account_code": "616500",
+      "account_name": "Hospitality costs and business gifts",
+      "vat_rate": 0.0,
+      "vat_code": "0% G"
+    }
+  ]
+}

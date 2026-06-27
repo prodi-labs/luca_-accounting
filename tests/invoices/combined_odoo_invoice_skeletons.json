@@ -2333,7 +2333,7 @@
           "account_code": "616680",
           "account_name": "Restaurant expenses",
           "vat_rate": 12.0,
-          "vat_code": "12% S"
+          "vat_code": "12% ND"
         },
         {
           "description": "Gambas alla griglia",
@@ -2343,7 +2343,7 @@
           "account_code": "616680",
           "account_name": "Restaurant expenses",
           "vat_rate": 12.0,
-          "vat_code": "12% S"
+          "vat_code": "12% ND"
         },
         {
           "description": "Seppia patate",
@@ -2353,7 +2353,7 @@
           "account_code": "616680",
           "account_name": "Restaurant expenses",
           "vat_rate": 12.0,
-          "vat_code": "12% S"
+          "vat_code": "12% ND"
         },
         {
           "description": "Carolus Triple",
@@ -2363,7 +2363,7 @@
           "account_code": "616680",
           "account_name": "Restaurant expenses",
           "vat_rate": 21.0,
-          "vat_code": "21% S"
+          "vat_code": "21% ND"
         },
         {
           "description": "Negroni (Bitter)",
@@ -2373,7 +2373,7 @@
           "account_code": "616680",
           "account_name": "Restaurant expenses",
           "vat_rate": 21.0,
-          "vat_code": "21% S"
+          "vat_code": "21% ND"
         },
         {
           "description": "Spa 0.5 lt",
@@ -2383,7 +2383,7 @@
           "account_code": "616680",
           "account_name": "Restaurant expenses",
           "vat_rate": 21.0,
-          "vat_code": "21% S"
+          "vat_code": "21% ND"
         }
       ]
     },
@@ -2460,7 +2460,7 @@
           "account_code": "612600",
           "account_name": "Fuel for company cars",
           "vat_rate": 21.0,
-          "vat_code": "21% G"
+          "vat_code": "21% ND"
         }
       ]
     },
@@ -2539,7 +2539,7 @@
           "account_code": "616680",
           "account_name": "Restaurant expenses",
           "vat_rate": 6.0,
-          "vat_code": "6% S"
+          "vat_code": "6% ND"
         }
       ]
     },

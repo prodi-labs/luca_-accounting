@@ -15,6 +15,8 @@ EU_COUNTRIES = {
 ACCOUNTS = {
     "612100": "IT services",
     "612050": "Administrative services",
+    "612070": "Training",
+    "618110": "Meal vouchers for director/manager",
     "615200": "Fees of bookkeepers and accountants",
     "616200": "Telephone and internet expenses",
     "616680": "Restaurant expenses",
@@ -106,6 +108,13 @@ def line_booking(description: str, supplier: str, doc: dict) -> tuple[str, str]:
         return "640000", ACCOUNTS["640000"]
     if any(k in desc for k in ("insurance excess", "franchise cost")):
         return "613200", ACCOUNTS["613200"]
+    if "monizze" in supplier_l:
+        if any(k in desc for k in ("meal voucher", "vouchers issued")):
+            return "618110", ACCOUNTS["618110"]
+        if any(k in desc for k in ("service cost", "recurrent service")):
+            return "612050", ACCOUNTS["612050"]
+    if "itaa" in supplier_l or "itaa registration" in desc:
+        return "612070", ACCOUNTS["612070"]
     if any(k in desc for k in ("ticket", "train")) or doc_type == "travel_ticket_receipt":
         return "616700", ACCOUNTS["616700"]
     if any(k in desc for k in ("diesel", "adblue", "fuel", "petrol")):
@@ -167,13 +176,17 @@ def apply_to_invoice_lines(doc: dict) -> bool:
         if account_code == "640000":
             code = ""
         if account_code == "616680" and line.get("vat_rate") in (12, 12.0):
-            code = "12% S"
+            code = "12% ND"
         if account_code == "616680" and line.get("vat_rate") in (21, 21.0):
-            code = "21% S"
+            code = "21% ND"
         if account_code == "616680" and line.get("vat_rate") in (6, 6.0):
-            code = "6% S"
+            code = "6% ND"
         if account_code == "616700" and line.get("vat_rate") is None:
             code = "6% S"
+        if account_code == "612070":
+            code = "0% S"
+        if account_code == "618110":
+            code = "0% S"
         if account_code == "612100" and country and country.upper() != "BE":
             if country.upper() in EU_COUNTRIES:
                 code = "21% EU S"

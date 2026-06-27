@@ -1,0 +1,103 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "BH2026-26001252",
+    "receipt_number": null,
+    "issue_date": "2026-04-18",
+    "due_date": "2026-04-23",
+    "paid_date": "2026-04-18",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Diogenius SRL - Behostings.be",
+    "address": "Chemin des Carriers 59, 1370 Saint-Remy-Geest, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0478449332"
+    ]
+  },
+  "customer": {
+    "legal_name": "iumhs",
+    "address": "Martelarenplein 20E, 3000 Leuven, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1008281148"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 13.98,
+    "tax_total": 2.94,
+    "total_including_tax": 16.92,
+    "amount_due": 0.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 13.98,
+        "tax_amount": 2.94,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Domain Registration - astu.be - 1 year",
+      "quantity": 1,
+      "unit_price": 6.99,
+      "amount": 6.99,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-18",
+        "end": "2027-04-17"
+      }
+    },
+    {
+      "description": "Domain Registration - btwijs.be - 1 year",
+      "quantity": 1,
+      "unit_price": 6.99,
+      "amount": 6.99,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": "2026-04-18",
+        "end": "2027-04-17"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact / Mister Cash",
+    "payment_reference": "pi_3TNZQcEQgvqQwtcO0SkWTkr1",
+    "iban": "BE75 3631 8318 5651",
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Domain Registration - astu.be - 1 year",
+      "quantity": 1,
+      "unit_price": 6.99,
+      "subtotal": 6.99,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    },
+    {
+      "description": "Domain Registration - btwijs.be - 1 year",
+      "quantity": 1,
+      "unit_price": 6.99,
+      "subtotal": 6.99,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}

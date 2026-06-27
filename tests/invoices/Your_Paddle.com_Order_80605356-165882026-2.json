@@ -1,0 +1,81 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "#80605356-165882026",
+    "receipt_number": null,
+    "issue_date": "2026-06-11",
+    "due_date": null,
+    "paid_date": "2026-06-11",
+    "billing_period": {
+      "start": "2026-06-11",
+      "end": "2026-07-10"
+    }
+  },
+  "supplier": {
+    "legal_name": "Paddle.com Market Ltd",
+    "address": "Judd House, 18-29 Mora Street, London, EC1V 8BT, United Kingdom",
+    "country": "GB",
+    "vat_numbers": [
+      "GB150848114"
+    ]
+  },
+  "customer": {
+    "legal_name": "iumhs",
+    "address": "Weggevoerdenstraat 24, 3020 Herent, Vlaams-Brabant, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1008281148"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 24.0,
+    "tax_total": 0.0,
+    "total_including_tax": 24.0,
+    "amount_due": 0.0
+  },
+  "tax": {
+    "reverse_charge": true,
+    "tax_lines": [
+      {
+        "rate": 0.0,
+        "base": 24.0,
+        "tax_amount": 0.0,
+        "description": "No VAT - supply may be subject to reverse charge in country of receipt"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Cloud Starter",
+      "quantity": 1,
+      "unit_price": 24.0,
+      "amount": 24.0,
+      "currency": "EUR",
+      "tax_rate": 0.0,
+      "period": {
+        "start": "2026-06-11",
+        "end": "2026-07-10"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Mastercard ending 9172",
+    "payment_reference": "PADDLE.NET* N8N CLOUD1",
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Cloud Starter",
+      "quantity": 1,
+      "unit_price": 24.0,
+      "subtotal": 24.0,
+      "account_code": "612100",
+      "account_name": "IT services",
+      "vat_rate": 0.0,
+      "vat_code": "21% EX S"
+    }
+  ]
+}

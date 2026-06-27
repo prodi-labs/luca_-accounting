@@ -1,0 +1,70 @@
+{
+  "document": {
+    "document_type": "registration_confirmation",
+    "document_number": null,
+    "receipt_number": null,
+    "issue_date": "2026-04-08",
+    "due_date": null,
+    "paid_date": null,
+    "billing_period": {
+      "start": "2026-04-21",
+      "end": "2026-04-21"
+    }
+  },
+  "supplier": {
+    "legal_name": "ITAA",
+    "address": null,
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "customer": {
+    "legal_name": "Arno",
+    "address": null,
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 62.0,
+    "tax_total": null,
+    "total_including_tax": 62.0,
+    "amount_due": 62.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": []
+  },
+  "line_items": [
+    {
+      "description": "ITAA registration - 21/04/2026 afternoon 13:00-16:30",
+      "quantity": 1,
+      "unit_price": 62.0,
+      "amount": 62.0,
+      "currency": "EUR",
+      "tax_rate": null,
+      "period": {
+        "start": "2026-04-21",
+        "end": "2026-04-21"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": null,
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "ITAA registration - 21/04/2026 afternoon 13:00-16:30",
+      "quantity": 1,
+      "unit_price": 62.0,
+      "subtotal": 62.0,
+      "account_code": "612070",
+      "account_name": "Training",
+      "vat_rate": 0.0,
+      "vat_code": "0% S"
+    }
+  ]
+}

@@ -158,7 +158,7 @@ Purpose: this document explains when a bookkeeping agent should select each Belg
 
 **Do not use for:** bookkeepers/accountants (`615200`), lawyers/notaries/auditors (`615300`) or consultants with an advisory assignment (`612300`).
 
-**Agent rules:** choose this account when the service is mainly administrative and execution-oriented.
+**Agent rules:** choose this account when the service is mainly administrative and execution-oriented. Meal-voucher provider administration fees (e.g. Monizze service charge) belong here — not on the voucher value account.
 
 ## 612060 Legal publications and statutory obligations
 
@@ -178,7 +178,7 @@ Purpose: this document explains when a bookkeeping agent should select each Belg
 
 **Do not use for:** general consulting (`612300`) or ordinary subscriptions/software (`612100` or `616200`, depending on nature).
 
-**Agent rules:** training is normally a business expense when it is linked to the activity or professional knowledge. Flag training without a clear business link for review.
+**Agent rules:** training is normally a business expense when it is linked to the activity or professional knowledge. Flag training without a clear business link for review. If the supplier is **VAT-exempt** (e.g. ITAA), use **`0% S`**.
 
 ## 612100 IT services
 
@@ -208,7 +208,7 @@ Purpose: this document explains when a bookkeeping agent should select each Belg
 
 **Do not use for:** fuel for machinery or site equipment without a vehicle nature, unless the file tracks those as vehicle costs.
 
-**Agent rules:** link the cost to the correct car if accounts are tracked per vehicle. Passenger cars require VAT limitation and income tax deductibility based on vehicle data.
+**Agent rules:** link the cost to the correct car if accounts are tracked per vehicle. Passenger cars require VAT limitation and income tax deductibility based on vehicle data. Gas-station tickets and receipts are not VAT-compliant invoices — use an `ND` VAT code (see `account_vat_rules.md`).
 
 ## 612601 Parking, car wash and tolls
 
@@ -216,7 +216,7 @@ Purpose: this document explains when a bookkeeping agent should select each Belg
 
 **Do not use for:** general travel and accommodation costs without a vehicle link (`616700`).
 
-**Agent rules:** link to the correct vehicle where possible. Parking at a restaurant or event remains a car cost if the invoice is specifically for parking.
+**Agent rules:** link to the correct vehicle where possible. Parking at a restaurant or event remains a car cost if the invoice is specifically for parking. Tickets and receipts → `ND` VAT code (see `account_vat_rules.md`).
 
 ## 612602 Car expenses [make] | [1AAA000] | [0.0%]
 
@@ -344,7 +344,7 @@ Purpose: this document explains when a bookkeeping agent should select each Belg
 
 **Do not use for:** internal canteen expenses (`611001`) or meal vouchers (`623020`/`618110`).
 
-**Agent rules:** restaurant expenses are often only partly deductible and VAT is often not deductible. Record participants or business purpose where possible.
+**Agent rules:** restaurant expenses are often only partly deductible and VAT is often not deductible. Record participants or business purpose where possible. Tickets and receipts → `ND` VAT code (see `account_vat_rules.md`).
 
 ## 616681 Non-specific business clothing
 
@@ -372,7 +372,7 @@ Purpose: this document explains when a bookkeeping agent should select each Belg
 
 **Do not use for:** parking/tolls/car wash (`612601`), restaurant expenses (`616680`) or commuting/personnel costs if tracked separately.
 
-**Agent rules:** check business purpose, destination and any private component. Foreign trips with a mixed purpose must be flagged.
+**Agent rules:** check business purpose, destination and any private component. Foreign trips with a mixed purpose must be flagged. **Train tickets (NMBS/SNCB):** 6% VAT is recoverable even without a full invoice — use **`6% S`**, not `ND`. Other transport tickets without a compliant invoice → `ND` (see `account_vat_rules.md`).
 
 ## 617000 Temporary agency workers
 
@@ -446,7 +446,7 @@ Purpose: this document explains when a bookkeeping agent should select each Belg
 
 **Do not use for:** employee meal vouchers (`623020`) or recovery/personal contribution (`618111`).
 
-**Agent rules:** check number of vouchers, employer contribution, personal contribution and possible overlap with other meal allowances.
+**Agent rules:** check number of vouchers, employer contribution, personal contribution and possible overlap with other meal allowances. The **voucher face value** has **0% VAT** (`0% S`); provider admin fees go to `612050`.
 
 ## 618111 Recovery of director/manager meal voucher contribution
 

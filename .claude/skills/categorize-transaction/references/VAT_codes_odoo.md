@@ -17,6 +17,12 @@ Purpose: this reference lists the available Odoo VAT codes and explains how a bo
    - investment goods (`IG`)
 6. For EU or non-EU suppliers, check whether the supply is goods, services, or investment goods before choosing an `EU` or `EX` code.
 7. For limited deduction codes such as `D35`, `D50`, `D75`, or `D85`, use them only when the account rule, document context, or dossier rule explicitly supports the deduction limitation.
+8. For **non-deductible VAT** (`ND` codes), use when the VAT shown on the document cannot be deducted. Common cases:
+   - the document is a **ticket or receipt**, not a VAT-compliant invoice (missing supplier VAT number, no customer details, payment-terminal slip, etc.)
+   - gas-station, parking, car-wash, restaurant/catering, or similar ticket-style purchases
+   - match the rate on the document: `21% ND`, `12% ND`, or `6% ND`
+   - use normal purchase codes (`21% G`, `21% S`, etc.) only on a full VAT invoice that supports deduction
+   - **exception:** **train tickets (NMBS/SNCB)** — 6% VAT is recoverable even without a full invoice; use **`6% S`**, not `6% ND`
 
 ## Data quality notes
 
@@ -74,6 +80,9 @@ Purpose: this reference lists the available Odoo VAT codes and explains how a bo
 | 49 | `21% IG D35` | 21% | Investment goods | Domestic / standard | 35% deductible | 21% | 21% BTW (Investment goods/investeringsgoederen) with 35% deduction |
 | 50 | `21% S D85` | 21% | Services | Domestic / standard | 85% deductible | 21% | 21% VAT on services with 85% deduction |
 | 50 | `21% S D75` | 21% | Services | Domestic / standard | 75% deductible | 21% | 21% VAT on services with 75% deduction |
+| 59 | `21% ND` | 21% | Any | Domestic / standard | Non-deductible (0%) | 21% | 21% VAT non-deductible — invoice/receipt VAT cannot be deducted |
+| 59 | `12% ND` | 12% | Any | Domestic / standard | Non-deductible (0%) | 12% | 12% VAT non-deductible — invoice/receipt VAT cannot be deducted |
+| 59 | `6% ND` | 6% | Any | Domestic / standard | Non-deductible (0%) | 6% | 6% VAT non-deductible — invoice/receipt VAT cannot be deducted |
 | 51 | `21% EU M` | 21% | Goods | Intra-Community | Normal deduction, unless limited by account or document context | 21% | 21% BTW intra-Community (Merchandise/handelsgoederen) |
 | 52 | `12% EU M` | 12% | Goods | Intra-Community | Normal deduction, unless limited by account or document context | 12% | 12% BTW intra-Community (Merchandise/handelsgoederen) |
 | 53 | `6% EU M` | 6% | Goods | Intra-Community | Normal deduction, unless limited by account or document context | 6% | 6% intra-Community (Merchandise/handelsgoederen) |
@@ -611,6 +620,42 @@ Purpose: this reference lists the available Odoo VAT codes and explains how a bo
     "regime": "Domestic / standard",
     "deduction": "75% deductible",
     "invoice_label": "21%"
+  },
+  {
+    "sequence": 59,
+    "odoo_tax_name": "21% ND",
+    "rate": 21,
+    "description_original": "21% BTW niet aftrekbaar",
+    "description_en": "21% VAT non-deductible",
+    "tax_type": "Purchase",
+    "scope": "",
+    "regime": "Domestic / standard",
+    "deduction": "Non-deductible (0%)",
+    "invoice_label": "21%"
+  },
+  {
+    "sequence": 59,
+    "odoo_tax_name": "12% ND",
+    "rate": 12,
+    "description_original": "12% BTW niet aftrekbaar",
+    "description_en": "12% VAT non-deductible",
+    "tax_type": "Purchase",
+    "scope": "",
+    "regime": "Domestic / standard",
+    "deduction": "Non-deductible (0%)",
+    "invoice_label": "12%"
+  },
+  {
+    "sequence": 59,
+    "odoo_tax_name": "6% ND",
+    "rate": 6,
+    "description_original": "6% BTW niet aftrekbaar",
+    "description_en": "6% VAT non-deductible",
+    "tax_type": "Purchase",
+    "scope": "",
+    "regime": "Domestic / standard",
+    "deduction": "Non-deductible (0%)",
+    "invoice_label": "6%"
   },
   {
     "sequence": 51,

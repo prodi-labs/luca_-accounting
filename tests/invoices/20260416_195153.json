@@ -1,0 +1,94 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "8545-61356724",
+    "receipt_number": null,
+    "issue_date": "2026-04-15",
+    "due_date": null,
+    "paid_date": "2026-04-15",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "NMBS / SNCB",
+    "address": "Frankrijkstraat 56, 1060 Brussel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0203430576"
+    ]
+  },
+  "customer": {
+    "legal_name": null,
+    "address": null,
+    "country": null,
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 7.4,
+    "tax_total": null,
+    "total_including_tax": 7.4,
+    "amount_due": 0.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": []
+  },
+  "line_items": [
+    {
+      "description": "Ticket Elk Moment Jongere (-26j), 2nd class single, Bruxelles-Nord to Herent",
+      "quantity": 1,
+      "unit_price": 3.7,
+      "amount": 3.7,
+      "currency": "EUR",
+      "tax_rate": null,
+      "period": {
+        "start": "2026-04-15",
+        "end": "2026-04-15"
+      }
+    },
+    {
+      "description": "Ticket Elk Moment Jongere (-26j), 2nd class single, Herent to Bruxelles-Nord",
+      "quantity": 1,
+      "unit_price": 3.7,
+      "amount": 3.7,
+      "currency": "EUR",
+      "tax_rate": null,
+      "period": {
+        "start": "2026-04-15",
+        "end": "2026-04-15"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact card ending 9172",
+    "payment_reference": "REF 8545120500",
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Ticket Elk Moment Jongere (-26j), 2nd class single, Bruxelles-Nord to Herent",
+      "quantity": 1,
+      "unit_price": 3.7,
+      "subtotal": 3.7,
+      "account_code": "616700",
+      "account_name": "Travel and accommodation expenses",
+      "vat_rate": null,
+      "vat_code": "6% S"
+    },
+    {
+      "description": "Ticket Elk Moment Jongere (-26j), 2nd class single, Herent to Bruxelles-Nord",
+      "quantity": 1,
+      "unit_price": 3.7,
+      "subtotal": 3.7,
+      "account_code": "616700",
+      "account_name": "Travel and accommodation expenses",
+      "vat_rate": null,
+      "vat_code": "6% S"
+    }
+  ]
+}

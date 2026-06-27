@@ -1,0 +1,103 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "431550707",
+    "receipt_number": null,
+    "issue_date": "2026-05-17",
+    "due_date": null,
+    "paid_date": "2026-05-17",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Coolblue België N.V.",
+    "address": "Borsbeeksebrug 28, 2600 Berchem, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0867686774"
+    ]
+  },
+  "customer": {
+    "legal_name": "iumhs",
+    "address": "Tildonksesteenweg 129, 3020 Herent, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1008281148"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 400.0,
+    "tax_total": 84.0,
+    "total_including_tax": 484.0,
+    "amount_due": 0.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 400.0,
+        "tax_amount": 84.0,
+        "description": "Belgian VAT 21%"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Bose QuietComfort Ultra Headphones (2e gen) Zwart",
+      "quantity": 1,
+      "unit_price": 314.05,
+      "amount": 314.05,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "BlueBuilt Power Delivery + Quick Charge charger with 3 USB ports 65W black",
+      "quantity": 2,
+      "unit_price": 42.98,
+      "amount": 85.95,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Bancontact",
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Bose QuietComfort Ultra Headphones (2e gen) Zwart",
+      "quantity": 1,
+      "unit_price": 314.05,
+      "subtotal": 314.05,
+      "account_code": "611200",
+      "account_name": "Small equipment",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    },
+    {
+      "description": "BlueBuilt Power Delivery + Quick Charge charger with 3 USB ports 65W black",
+      "quantity": 2,
+      "unit_price": 42.98,
+      "subtotal": 85.95,
+      "account_code": "611200",
+      "account_name": "Small equipment",
+      "vat_rate": 21.0,
+      "vat_code": "21% G"
+    }
+  ]
+}

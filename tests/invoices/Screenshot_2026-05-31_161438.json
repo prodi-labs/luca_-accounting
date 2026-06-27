@@ -1,0 +1,70 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "418300422",
+    "receipt_number": null,
+    "issue_date": "2026-05-17",
+    "due_date": null,
+    "paid_date": "2026-05-17",
+    "billing_period": {
+      "start": null,
+      "end": "2027-05-17"
+    }
+  },
+  "supplier": {
+    "legal_name": "Vanden Borre",
+    "address": null,
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "customer": {
+    "legal_name": "Mijnheer Arno Stuelsn",
+    "address": "Weggevoerdenstraat 24, Belgium",
+    "country": "BE",
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 50.0,
+    "tax_total": null,
+    "total_including_tax": 50.0,
+    "amount_due": 0.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": []
+  },
+  "line_items": [
+    {
+      "description": "Vanden Borre gift card, beneficiary Axel de Legend, gift card number 1710 0694 3630 4489 245",
+      "quantity": 1,
+      "unit_price": 50.0,
+      "amount": 50.0,
+      "currency": "EUR",
+      "tax_rate": null,
+      "period": {
+        "start": "2026-05-17",
+        "end": "2027-05-17"
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "paid online",
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Vanden Borre gift card, beneficiary Axel de Legend, gift card number 1710 0694 3630 4489 245",
+      "quantity": 1,
+      "unit_price": 50.0,
+      "subtotal": 50.0,
+      "account_code": "616500",
+      "account_name": "Hospitality costs and business gifts",
+      "vat_rate": null,
+      "vat_code": "0% G"
+    }
+  ]
+}

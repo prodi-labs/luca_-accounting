@@ -1,0 +1,151 @@
+{
+  "document": {
+    "document_type": "receipt",
+    "document_number": "795240",
+    "receipt_number": "239696",
+    "issue_date": "2026-06-15",
+    "due_date": null,
+    "paid_date": "2026-06-15",
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "De Stordeur Leuven",
+    "address": "Aarschotsesteenweg 112, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0643459693"
+    ]
+  },
+  "customer": {
+    "legal_name": null,
+    "address": null,
+    "country": null,
+    "vat_numbers": []
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 47.19,
+    "tax_total": 6.41,
+    "total_including_tax": 53.6,
+    "amount_due": 0.0
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 8.26,
+        "tax_amount": 1.74,
+        "description": "VAT category A"
+      },
+      {
+        "rate": 12.0,
+        "base": 38.93,
+        "tax_amount": 4.67,
+        "description": "VAT category B"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Thrive Recovery",
+      "quantity": 1,
+      "unit_price": 5.0,
+      "amount": 5.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Spa Blauw 50cl",
+      "quantity": 1,
+      "unit_price": 5.0,
+      "amount": 5.0,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Pulled Chicken Burger",
+      "quantity": 1,
+      "unit_price": 21.8,
+      "amount": 21.8,
+      "currency": "EUR",
+      "tax_rate": 12.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Ballekes Tomaat",
+      "quantity": 1,
+      "unit_price": 21.8,
+      "amount": 21.8,
+      "currency": "EUR",
+      "tax_rate": 12.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "Worldline",
+    "payment_reference": null,
+    "iban": null,
+    "structured_communication": null
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Thrive Recovery",
+      "quantity": 1,
+      "unit_price": 5.0,
+      "subtotal": 5.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% ND"
+    },
+    {
+      "description": "Spa Blauw 50cl",
+      "quantity": 1,
+      "unit_price": 5.0,
+      "subtotal": 5.0,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 21.0,
+      "vat_code": "21% ND"
+    },
+    {
+      "description": "Pulled Chicken Burger",
+      "quantity": 1,
+      "unit_price": 21.8,
+      "subtotal": 21.8,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 12.0,
+      "vat_code": "12% ND"
+    },
+    {
+      "description": "Ballekes Tomaat",
+      "quantity": 1,
+      "unit_price": 21.8,
+      "subtotal": 21.8,
+      "account_code": "616680",
+      "account_name": "Restaurant expenses",
+      "vat_rate": 12.0,
+      "vat_code": "12% ND"
+    }
+  ]
+}

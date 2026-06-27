@@ -1,0 +1,103 @@
+{
+  "document": {
+    "document_type": "invoice",
+    "document_number": "IM 2026/06/4443636",
+    "receipt_number": null,
+    "issue_date": "2026-06-22",
+    "due_date": null,
+    "paid_date": null,
+    "billing_period": {
+      "start": null,
+      "end": null
+    }
+  },
+  "supplier": {
+    "legal_name": "Monizze NV",
+    "address": "Gasthuisstraat 31, 1000 Brussel, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE0834013324"
+    ]
+  },
+  "customer": {
+    "legal_name": "IUMHS",
+    "address": "Weggevoerdenstraat 24, 3020 Herent, Belgium",
+    "country": "BE",
+    "vat_numbers": [
+      "BE1008281148"
+    ]
+  },
+  "amounts": {
+    "currency": "EUR",
+    "subtotal_excluding_tax": 227.99,
+    "tax_total": 1.68,
+    "total_including_tax": 229.67,
+    "amount_due": null
+  },
+  "tax": {
+    "reverse_charge": false,
+    "tax_lines": [
+      {
+        "rate": 21.0,
+        "base": 7.99,
+        "tax_amount": 1.68,
+        "description": "VAT on Monizze service costs"
+      }
+    ]
+  },
+  "line_items": [
+    {
+      "description": "Meal vouchers issued value, 22 x 10.00 EUR",
+      "quantity": 22,
+      "unit_price": 10.0,
+      "amount": 220.0,
+      "currency": "EUR",
+      "tax_rate": null,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    },
+    {
+      "description": "Monizze recurrent service cost per order",
+      "quantity": 1,
+      "unit_price": 7.99,
+      "amount": 7.99,
+      "currency": "EUR",
+      "tax_rate": 21.0,
+      "period": {
+        "start": null,
+        "end": null
+      }
+    }
+  ],
+  "payment": {
+    "payment_method": "direct_debit",
+    "payment_reference": "MZZ-M-21884",
+    "iban": null,
+    "structured_communication": "+++ 019/2941/25005 +++"
+  },
+  "testable": true,
+  "invoice_lines": [
+    {
+      "description": "Meal vouchers issued value, 22 x 10.00 EUR",
+      "quantity": 22,
+      "unit_price": 10.0,
+      "subtotal": 220.0,
+      "account_code": "618110",
+      "account_name": "Meal vouchers for director/manager",
+      "vat_rate": 0.0,
+      "vat_code": "0% S"
+    },
+    {
+      "description": "Monizze recurrent service cost per order",
+      "quantity": 1,
+      "unit_price": 7.99,
+      "subtotal": 7.99,
+      "account_code": "612050",
+      "account_name": "Administrative services",
+      "vat_rate": 21.0,
+      "vat_code": "21% S"
+    }
+  ]
+}
